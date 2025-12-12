@@ -36,7 +36,9 @@ export default function Contact() {
               <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-500 rounded-lg flex items-center justify-center mb-4">
                 <MapPin className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-2">Visit Us</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">
+                Visit Us
+              </h3>
               <p className="text-slate-600">
                 We have branches in Sector 43 and Sector 69, Gurgaon
               </p>
@@ -83,10 +85,10 @@ export default function Contact() {
                       <div className="flex items-start gap-3">
                         <MapPin className="w-5 h-5 text-purple-600 flex-shrink-0 mt-1" />
                         <div>
-                          <p className="font-semibold text-slate-900">Location</p>
-                          <p className="text-slate-600">
-                            Sector 43, Gurgaon
+                          <p className="font-semibold text-slate-900">
+                            Location
                           </p>
+                          <p className="text-slate-600">Sector 43, Gurgaon</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
@@ -135,10 +137,10 @@ export default function Contact() {
                       <div className="flex items-start gap-3">
                         <MapPin className="w-5 h-5 text-purple-600 flex-shrink-0 mt-1" />
                         <div>
-                          <p className="font-semibold text-slate-900">Location</p>
-                          <p className="text-slate-600">
-                            Sector 69, Gurgaon
+                          <p className="font-semibold text-slate-900">
+                            Location
                           </p>
+                          <p className="text-slate-600">Sector 69, Gurgaon</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">

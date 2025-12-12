@@ -17,7 +17,9 @@ export default function Home() {
                 Quick Clean & Convenient
               </p>
               <p className="text-lg md:text-xl text-white mb-8 leading-relaxed opacity-95">
-                Professional laundry and dry cleaning delivered to your doorstep in 45 minutes. Free pickup and delivery with up to 20% OFF on express services.
+                Professional laundry and dry cleaning delivered to your doorstep
+                in 45 minutes. Free pickup and delivery with up to 20% OFF on
+                express services.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
@@ -41,10 +43,36 @@ export default function Home() {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle cx="200" cy="200" r="150" fill="rgba(255,255,255,0.1)" />
-                <circle cx="200" cy="200" r="120" fill="rgba(255,255,255,0.15)" />
-                <rect x="150" y="120" width="100" height="160" rx="10" fill="white" opacity="0.2" />
-                <rect x="170" y="140" width="60" height="120" rx="5" fill="white" opacity="0.3" />
+                <circle
+                  cx="200"
+                  cy="200"
+                  r="150"
+                  fill="rgba(255,255,255,0.1)"
+                />
+                <circle
+                  cx="200"
+                  cy="200"
+                  r="120"
+                  fill="rgba(255,255,255,0.15)"
+                />
+                <rect
+                  x="150"
+                  y="120"
+                  width="100"
+                  height="160"
+                  rx="10"
+                  fill="white"
+                  opacity="0.2"
+                />
+                <rect
+                  x="170"
+                  y="140"
+                  width="60"
+                  height="120"
+                  rx="5"
+                  fill="white"
+                  opacity="0.3"
+                />
               </svg>
             </div>
           </div>
@@ -66,7 +94,8 @@ export default function Home() {
                 Express Service
               </h3>
               <p className="text-slate-600">
-                Get your clothes cleaned and delivered in 45 minutes with our fast express service.
+                Get your clothes cleaned and delivered in 45 minutes with our
+                fast express service.
               </p>
             </div>
 
@@ -78,7 +107,8 @@ export default function Home() {
                 Free Pickup & Delivery
               </h3>
               <p className="text-slate-600">
-                We pick up and deliver your laundry for free across both branches.
+                We pick up and deliver your laundry for free across both
+                branches.
               </p>
             </div>
 
@@ -90,7 +120,8 @@ export default function Home() {
                 Premium Quality
               </h3>
               <p className="text-slate-600">
-                Professional care for all types of garments using premium detergents and equipment.
+                Professional care for all types of garments using premium
+                detergents and equipment.
               </p>
             </div>
           </div>
@@ -120,7 +151,9 @@ export default function Home() {
             </div>
             <div className="bg-white p-6 rounded-lg border border-slate-200 text-center hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-3">👗</div>
-              <h3 className="font-bold text-slate-900 mb-2">Women's Dry Clean</h3>
+              <h3 className="font-bold text-slate-900 mb-2">
+                Women's Dry Clean
+              </h3>
               <p className="text-sm text-slate-600">
                 Specialized care for women's garments
               </p>
@@ -214,7 +247,8 @@ export default function Home() {
             Ready to Experience Premium Laundry Service?
           </h2>
           <p className="text-lg text-white mb-8 opacity-95">
-            Get up to 20% OFF on your first express service order. Free pickup and delivery available.
+            Get up to 20% OFF on your first express service order. Free pickup
+            and delivery available.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

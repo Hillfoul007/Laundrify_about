@@ -29,11 +29,36 @@ export default function Services() {
 
           <Tabs defaultValue="laundry" className="w-full">
             <TabsList className="grid w-full grid-cols-5 mb-8 bg-slate-100">
-              <TabsTrigger value="laundry" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-500 data-[state=active]:text-white">Laundry</TabsTrigger>
-              <TabsTrigger value="mens" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-500 data-[state=active]:text-white">Men's Dry</TabsTrigger>
-              <TabsTrigger value="womens" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-500 data-[state=active]:text-white">Women's Dry</TabsTrigger>
-              <TabsTrigger value="woolen" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-500 data-[state=active]:text-white">Woolen</TabsTrigger>
-              <TabsTrigger value="shoe" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-500 data-[state=active]:text-white">Shoe Care</TabsTrigger>
+              <TabsTrigger
+                value="laundry"
+                className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-500 data-[state=active]:text-white"
+              >
+                Laundry
+              </TabsTrigger>
+              <TabsTrigger
+                value="mens"
+                className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-500 data-[state=active]:text-white"
+              >
+                Men's Dry
+              </TabsTrigger>
+              <TabsTrigger
+                value="womens"
+                className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-500 data-[state=active]:text-white"
+              >
+                Women's Dry
+              </TabsTrigger>
+              <TabsTrigger
+                value="woolen"
+                className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-500 data-[state=active]:text-white"
+              >
+                Woolen
+              </TabsTrigger>
+              <TabsTrigger
+                value="shoe"
+                className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-500 data-[state=active]:text-white"
+              >
+                Shoe Care
+              </TabsTrigger>
             </TabsList>
 
             {/* Laundry Services */}
@@ -56,13 +81,17 @@ export default function Services() {
                     </thead>
                     <tbody>
                       <tr className="border-b border-slate-200 hover:bg-slate-50">
-                        <td className="py-3 px-4">Laundry with Fold (per Kg)</td>
+                        <td className="py-3 px-4">
+                          Laundry with Fold (per Kg)
+                        </td>
                         <td className="py-3 px-4 text-right font-semibold text-purple-600">
                           ₹80
                         </td>
                       </tr>
                       <tr className="border-b border-slate-200 hover:bg-slate-50">
-                        <td className="py-3 px-4">Laundry with Iron (per Kg)</td>
+                        <td className="py-3 px-4">
+                          Laundry with Iron (per Kg)
+                        </td>
                         <td className="py-3 px-4 text-right font-semibold text-purple-600">
                           ₹120
                         </td>
@@ -175,7 +204,9 @@ export default function Services() {
                 </h3>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                   <div>
-                    <h4 className="font-bold text-purple-600 mb-4">Woolen Items</h4>
+                    <h4 className="font-bold text-purple-600 mb-4">
+                      Woolen Items
+                    </h4>
                     <div className="overflow-x-auto">
                       <table className="w-full">
                         <tbody>
@@ -293,7 +324,9 @@ export default function Services() {
               <div className="flex gap-4">
                 <div className="text-3xl">🚚</div>
                 <div>
-                  <p className="font-bold text-slate-900">Free Pickup & Delivery</p>
+                  <p className="font-bold text-slate-900">
+                    Free Pickup & Delivery
+                  </p>
                   <p className="text-slate-600">
                     Complimentary service across both branches
                   </p>

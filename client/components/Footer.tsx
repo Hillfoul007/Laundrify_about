@@ -28,7 +28,9 @@ export function Footer() {
               </div>
               <div>
                 <span className="font-bold text-white text-lg">Laundrify</span>
-                <p className="text-xs text-slate-400">Quick Clean & Convenient</p>
+                <p className="text-xs text-slate-400">
+                  Quick Clean & Convenient
+                </p>
               </div>
             </div>
             <p className="text-sm text-slate-400">
@@ -41,10 +43,7 @@ export function Footer() {
             <h3 className="font-bold text-white mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link
-                  to="/"
-                  className="hover:text-pink-400 transition-colors"
-                >
+                <Link to="/" className="hover:text-pink-400 transition-colors">
                   Home
                 </Link>
               </li>
@@ -104,7 +103,9 @@ export function Footer() {
             <h3 className="font-bold text-white mb-4">Services</h3>
             <ul className="space-y-2 text-sm">
               <li className="hover:text-pink-400 transition-colors">Laundry</li>
-              <li className="hover:text-pink-400 transition-colors">Dry Clean</li>
+              <li className="hover:text-pink-400 transition-colors">
+                Dry Clean
+              </li>
               <li className="hover:text-pink-400 transition-colors">
                 Express Service
               </li>
