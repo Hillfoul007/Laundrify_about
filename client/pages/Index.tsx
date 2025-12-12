@@ -177,19 +177,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-16 lg:py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Sector 43 Map */}
-            <div className="rounded-lg overflow-hidden shadow-lg border border-slate-200" />
-
-            {/* Sector 69 Map */}
-            <div className="rounded-lg overflow-hidden shadow-lg border border-slate-200" />
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-16 lg:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
