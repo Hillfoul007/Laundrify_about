@@ -6,26 +6,29 @@ export default function Home() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-teal-600 via-teal-500 to-cyan-600 text-white py-20 lg:py-32">
+      <section className="bg-gradient-to-br from-purple-600 via-pink-500 to-rose-400 text-white py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Premium Laundry & Dry Clean Service
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
+                Laundrify
               </h1>
-              <p className="text-lg md:text-xl text-teal-50 mb-8 leading-relaxed">
+              <p className="text-2xl md:text-3xl font-semibold text-white mb-6">
+                Quick Clean & Convenient
+              </p>
+              <p className="text-lg md:text-xl text-white mb-8 leading-relaxed opacity-95">
                 Professional laundry and dry cleaning delivered to your doorstep in 45 minutes. Free pickup and delivery with up to 20% OFF on express services.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   to="/services"
-                  className="bg-white text-teal-600 px-8 py-3 rounded-lg font-bold text-lg hover:bg-teal-50 transition-colors text-center"
+                  className="bg-white text-purple-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-lime-300 transition-colors text-center shadow-lg"
                 >
                   Browse Services
                 </Link>
                 <a
-                  href="tel:7011585587"
-                  className="bg-teal-400 text-white px-8 py-3 rounded-lg font-bold text-lg hover:bg-teal-300 transition-colors text-center"
+                  href="tel:+917011585587"
+                  className="bg-lime-400 text-slate-900 px-8 py-3 rounded-full font-bold text-lg hover:bg-lime-300 transition-colors text-center shadow-lg"
                 >
                   Call Now
                 </a>
@@ -55,8 +58,8 @@ export default function Home() {
             Why Choose Laundrify?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-8 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-xl border border-teal-200">
-              <div className="w-12 h-12 bg-teal-600 rounded-lg flex items-center justify-center mb-4">
+            <div className="p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl border border-purple-200">
+              <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-500 rounded-lg flex items-center justify-center mb-4">
                 <Zap className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">
@@ -67,8 +70,8 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="p-8 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-xl border border-teal-200">
-              <div className="w-12 h-12 bg-teal-600 rounded-lg flex items-center justify-center mb-4">
+            <div className="p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl border border-purple-200">
+              <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-500 rounded-lg flex items-center justify-center mb-4">
                 <MapPin className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">
@@ -79,8 +82,8 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="p-8 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-xl border border-teal-200">
-              <div className="w-12 h-12 bg-teal-600 rounded-lg flex items-center justify-center mb-4">
+            <div className="p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl border border-purple-200">
+              <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-500 rounded-lg flex items-center justify-center mb-4">
                 <Sparkles className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">
@@ -133,7 +136,7 @@ export default function Home() {
           <div className="text-center">
             <Link
               to="/services"
-              className="inline-block bg-teal-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-teal-700 transition-colors"
+              className="inline-block bg-gradient-to-r from-purple-600 to-pink-500 text-white px-8 py-3 rounded-full font-bold hover:shadow-lg transition-all"
             >
               View All Services & Pricing
             </Link>
@@ -141,26 +144,89 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Map Section */}
+      <section className="py-16 lg:py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-slate-900">
+            Our Locations
+          </h2>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Sector 43 Map */}
+            <div className="rounded-lg overflow-hidden shadow-lg border border-slate-200">
+              <div className="h-96 bg-slate-200 relative overflow-hidden">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                  allowFullScreen
+                  referrerPolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.6851844551656!2d77.05373!3d28.5178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceff5bdfffffd%3A0x123456789!2sSector%2043%2C%20Gurgaon!5e0!3m2!1sen!2sin!4v1234567890"
+                />
+              </div>
+              <div className="p-6 bg-gradient-to-r from-purple-50 to-pink-50 border-t border-slate-200">
+                <h3 className="text-2xl font-bold text-slate-900 mb-2">
+                  Sector 43, Gurgaon
+                </h3>
+                <a
+                  href="tel:+917011585587"
+                  className="text-purple-600 font-semibold hover:text-pink-600 transition-colors"
+                >
+                  📞 +91 7011585587
+                </a>
+              </div>
+            </div>
+
+            {/* Sector 69 Map */}
+            <div className="rounded-lg overflow-hidden shadow-lg border border-slate-200">
+              <div className="h-96 bg-slate-200 relative overflow-hidden">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                  allowFullScreen
+                  referrerPolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.8145212125345!2d77.07125!3d28.5567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd12345678!2sSector%2069%2C%20Gurgaon!5e0!3m2!1sen!2sin!4v1234567890"
+                />
+              </div>
+              <div className="p-6 bg-gradient-to-r from-purple-50 to-pink-50 border-t border-slate-200">
+                <h3 className="text-2xl font-bold text-slate-900 mb-2">
+                  Sector 69, Gurgaon
+                </h3>
+                <a
+                  href="tel:+917011585587"
+                  className="text-purple-600 font-semibold hover:text-pink-600 transition-colors"
+                >
+                  📞 +91 7011585587
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="bg-teal-600 text-white py-16 lg:py-20">
+      <section className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-16 lg:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to Experience Premium Laundry Service?
           </h2>
-          <p className="text-lg text-teal-50 mb-8">
+          <p className="text-lg text-white mb-8 opacity-95">
             Get up to 20% OFF on your first express service order. Free pickup and delivery available.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:7011585587"
-              className="bg-white text-teal-600 px-8 py-3 rounded-lg font-bold hover:bg-teal-50 transition-colors text-center flex items-center justify-center gap-2"
+              href="tel:+917011585587"
+              className="bg-white text-purple-600 px-8 py-3 rounded-full font-bold hover:bg-lime-300 transition-colors text-center flex items-center justify-center gap-2 shadow-lg"
             >
               <Phone className="w-5 h-5" />
-              Call: 7011585587
+              Call: +91 7011585587
             </a>
             <Link
               to="/contact"
-              className="bg-teal-400 text-white px-8 py-3 rounded-lg font-bold hover:bg-teal-300 transition-colors text-center"
+              className="bg-lime-400 text-slate-900 px-8 py-3 rounded-full font-bold hover:bg-lime-300 transition-colors text-center shadow-lg"
             >
               Visit Us
             </Link>
