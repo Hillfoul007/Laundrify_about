@@ -6,10 +6,10 @@ export default function Services() {
   return (
     <Layout>
       {/* Header */}
-      <section className="bg-gradient-to-r from-teal-600 to-cyan-600 text-white py-12 lg:py-16">
+      <section className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
-          <p className="text-lg text-teal-50">
+          <p className="text-lg text-white opacity-95">
             Professional laundry and dry cleaning with transparent pricing
           </p>
         </div>
@@ -19,7 +19,7 @@ export default function Services() {
       <section className="py-16 lg:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-8">
-            <p className="text-center text-lg text-teal-600 font-semibold mb-4">
+            <p className="text-center text-lg bg-gradient-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent font-semibold mb-4">
               ⭐ Up to 20% OFF | Express Service (&lt;24 Hrs)
             </p>
             <p className="text-center text-lg text-slate-600">
@@ -28,12 +28,12 @@ export default function Services() {
           </div>
 
           <Tabs defaultValue="laundry" className="w-full">
-            <TabsList className="grid w-full grid-cols-5 mb-8">
-              <TabsTrigger value="laundry">Laundry</TabsTrigger>
-              <TabsTrigger value="mens">Men's Dry</TabsTrigger>
-              <TabsTrigger value="womens">Women's Dry</TabsTrigger>
-              <TabsTrigger value="woolen">Woolen</TabsTrigger>
-              <TabsTrigger value="shoe">Shoe Care</TabsTrigger>
+            <TabsList className="grid w-full grid-cols-5 mb-8 bg-slate-100">
+              <TabsTrigger value="laundry" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-500 data-[state=active]:text-white">Laundry</TabsTrigger>
+              <TabsTrigger value="mens" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-500 data-[state=active]:text-white">Men's Dry</TabsTrigger>
+              <TabsTrigger value="womens" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-500 data-[state=active]:text-white">Women's Dry</TabsTrigger>
+              <TabsTrigger value="woolen" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-500 data-[state=active]:text-white">Woolen</TabsTrigger>
+              <TabsTrigger value="shoe" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-500 data-[state=active]:text-white">Shoe Care</TabsTrigger>
             </TabsList>
 
             {/* Laundry Services */}
@@ -45,11 +45,11 @@ export default function Services() {
                 <div className="overflow-x-auto">
                   <table className="w-full">
                     <thead>
-                      <tr className="border-b-2 border-teal-600">
-                        <th className="text-left py-3 px-4 font-bold text-teal-600 bg-teal-50">
+                      <tr className="border-b-2 bg-gradient-to-r from-purple-600 to-pink-500">
+                        <th className="text-left py-3 px-4 font-bold text-white">
                           Service
                         </th>
-                        <th className="text-right py-3 px-4 font-bold text-teal-600 bg-teal-50">
+                        <th className="text-right py-3 px-4 font-bold text-white">
                           Price
                         </th>
                       </tr>
@@ -57,13 +57,13 @@ export default function Services() {
                     <tbody>
                       <tr className="border-b border-slate-200 hover:bg-slate-50">
                         <td className="py-3 px-4">Laundry with Fold (per Kg)</td>
-                        <td className="py-3 px-4 text-right font-semibold text-teal-600">
+                        <td className="py-3 px-4 text-right font-semibold text-purple-600">
                           ₹80
                         </td>
                       </tr>
                       <tr className="border-b border-slate-200 hover:bg-slate-50">
                         <td className="py-3 px-4">Laundry with Iron (per Kg)</td>
-                        <td className="py-3 px-4 text-right font-semibold text-teal-600">
+                        <td className="py-3 px-4 text-right font-semibold text-purple-600">
                           ₹120
                         </td>
                       </tr>
@@ -82,11 +82,11 @@ export default function Services() {
                 <div className="overflow-x-auto">
                   <table className="w-full">
                     <thead>
-                      <tr className="border-b-2 border-teal-600">
-                        <th className="text-left py-3 px-4 font-bold text-teal-600 bg-teal-50">
+                      <tr className="border-b-2 bg-gradient-to-r from-purple-600 to-pink-500">
+                        <th className="text-left py-3 px-4 font-bold text-white">
                           Item
                         </th>
-                        <th className="text-right py-3 px-4 font-bold text-teal-600 bg-teal-50">
+                        <th className="text-right py-3 px-4 font-bold text-white">
                           Price
                         </th>
                       </tr>
@@ -107,7 +107,7 @@ export default function Services() {
                           className="border-b border-slate-200 hover:bg-slate-50"
                         >
                           <td className="py-3 px-4">{item}</td>
-                          <td className="py-3 px-4 text-right font-semibold text-teal-600">
+                          <td className="py-3 px-4 text-right font-semibold text-purple-600">
                             {price}
                           </td>
                         </tr>
@@ -127,11 +127,11 @@ export default function Services() {
                 <div className="overflow-x-auto">
                   <table className="w-full">
                     <thead>
-                      <tr className="border-b-2 border-teal-600">
-                        <th className="text-left py-3 px-4 font-bold text-teal-600 bg-teal-50">
+                      <tr className="border-b-2 bg-gradient-to-r from-purple-600 to-pink-500">
+                        <th className="text-left py-3 px-4 font-bold text-white">
                           Item
                         </th>
-                        <th className="text-right py-3 px-4 font-bold text-teal-600 bg-teal-50">
+                        <th className="text-right py-3 px-4 font-bold text-white">
                           Price
                         </th>
                       </tr>
@@ -156,7 +156,7 @@ export default function Services() {
                           className="border-b border-slate-200 hover:bg-slate-50"
                         >
                           <td className="py-3 px-4">{item}</td>
-                          <td className="py-3 px-4 text-right font-semibold text-teal-600">
+                          <td className="py-3 px-4 text-right font-semibold text-purple-600">
                             {price}
                           </td>
                         </tr>
@@ -175,7 +175,7 @@ export default function Services() {
                 </h3>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                   <div>
-                    <h4 className="font-bold text-teal-600 mb-4">Woolen Items</h4>
+                    <h4 className="font-bold text-purple-600 mb-4">Woolen Items</h4>
                     <div className="overflow-x-auto">
                       <table className="w-full">
                         <tbody>
@@ -192,7 +192,7 @@ export default function Services() {
                               className="border-b border-slate-200 hover:bg-slate-50"
                             >
                               <td className="py-3 px-4 text-sm">{item}</td>
-                              <td className="py-3 px-4 text-right font-semibold text-teal-600 text-sm">
+                              <td className="py-3 px-4 text-right font-semibold text-purple-600 text-sm">
                                 {price}
                               </td>
                             </tr>
@@ -202,7 +202,7 @@ export default function Services() {
                     </div>
                   </div>
                   <div>
-                    <h4 className="font-bold text-teal-600 mb-4">
+                    <h4 className="font-bold text-purple-600 mb-4">
                       Household Items
                     </h4>
                     <div className="overflow-x-auto">
@@ -220,7 +220,7 @@ export default function Services() {
                               className="border-b border-slate-200 hover:bg-slate-50"
                             >
                               <td className="py-3 px-4 text-sm">{item}</td>
-                              <td className="py-3 px-4 text-right font-semibold text-teal-600 text-sm">
+                              <td className="py-3 px-4 text-right font-semibold text-purple-600 text-sm">
                                 {price}
                               </td>
                             </tr>
@@ -242,11 +242,11 @@ export default function Services() {
                 <div className="overflow-x-auto">
                   <table className="w-full">
                     <thead>
-                      <tr className="border-b-2 border-teal-600">
-                        <th className="text-left py-3 px-4 font-bold text-teal-600 bg-teal-50">
+                      <tr className="border-b-2 bg-gradient-to-r from-purple-600 to-pink-500">
+                        <th className="text-left py-3 px-4 font-bold text-white">
                           Item
                         </th>
-                        <th className="text-right py-3 px-4 font-bold text-teal-600 bg-teal-50">
+                        <th className="text-right py-3 px-4 font-bold text-white">
                           Price
                         </th>
                       </tr>
@@ -263,7 +263,7 @@ export default function Services() {
                           className="border-b border-slate-200 hover:bg-slate-50"
                         >
                           <td className="py-3 px-4">{item}</td>
-                          <td className="py-3 px-4 text-right font-semibold text-teal-600">
+                          <td className="py-3 px-4 text-right font-semibold text-purple-600">
                             {price}
                           </td>
                         </tr>
@@ -276,7 +276,7 @@ export default function Services() {
           </Tabs>
 
           {/* Special Offers */}
-          <div className="mt-16 p-8 bg-gradient-to-r from-teal-50 to-cyan-50 rounded-lg border-2 border-teal-200">
+          <div className="mt-16 p-8 bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg border-2 border-purple-200">
             <h3 className="text-2xl font-bold text-slate-900 mb-4">
               Special Offers & Benefits
             </h3>
