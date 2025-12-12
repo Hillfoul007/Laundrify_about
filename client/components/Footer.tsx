@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { LaundrifySVG } from "./Logo";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
