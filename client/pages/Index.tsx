@@ -180,62 +180,12 @@ export default function Home() {
       {/* Map Section */}
       <section className="py-16 lg:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-slate-900">
-            Our Locations
-          </h2>
-
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Sector 43 Map */}
-            <div className="rounded-lg overflow-hidden shadow-lg border border-slate-200">
-              <div className="h-96 bg-slate-200 relative overflow-hidden">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  loading="lazy"
-                  allowFullScreen
-                  referrerPolicy="no-referrer-when-downgrade"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.6851844551656!2d77.05373!3d28.5178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceff5bdfffffd%3A0x123456789!2sSector%2043%2C%20Gurgaon!5e0!3m2!1sen!2sin!4v1234567890"
-                />
-              </div>
-              <div className="p-6 bg-gradient-to-r from-purple-50 to-pink-50 border-t border-slate-200">
-                <h3 className="text-2xl font-bold text-slate-900 mb-2">
-                  Sector 43, Gurgaon
-                </h3>
-                <a
-                  href="tel:+917011585587"
-                  className="text-purple-600 font-semibold hover:text-pink-600 transition-colors"
-                >
-                  📞 +91 7011585587
-                </a>
-              </div>
-            </div>
+            <div className="rounded-lg overflow-hidden shadow-lg border border-slate-200" />
 
             {/* Sector 69 Map */}
-            <div className="rounded-lg overflow-hidden shadow-lg border border-slate-200">
-              <div className="h-96 bg-slate-200 relative overflow-hidden">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  loading="lazy"
-                  allowFullScreen
-                  referrerPolicy="no-referrer-when-downgrade"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.8145212125345!2d77.07125!3d28.5567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd12345678!2sSector%2069%2C%20Gurgaon!5e0!3m2!1sen!2sin!4v1234567890"
-                />
-              </div>
-              <div className="p-6 bg-gradient-to-r from-purple-50 to-pink-50 border-t border-slate-200">
-                <h3 className="text-2xl font-bold text-slate-900 mb-2">
-                  Sector 69, Gurgaon
-                </h3>
-                <a
-                  href="tel:+917011585587"
-                  className="text-purple-600 font-semibold hover:text-pink-600 transition-colors"
-                >
-                  📞 +91 7011585587
-                </a>
-              </div>
-            </div>
+            <div className="rounded-lg overflow-hidden shadow-lg border border-slate-200" />
           </div>
         </div>
       </section>
