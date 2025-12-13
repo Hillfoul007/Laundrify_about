@@ -31,7 +31,7 @@ export default function About() {
                 your clothes shouldn't be a burden.
               </p>
               <p className="text-lg text-slate-600 mb-4 leading-relaxed">
-                With operations in Sector 43 and Sector 69 in Gurgaon, we've
+                With operations at Laundry26 (Sector 43) and Shiv Laundry (Sector 69) in Gurgaon, we've
                 built a reputation for excellence, reliability, and customer
                 satisfaction. Our team of experienced professionals uses premium
                 detergents and state-of-the-art equipment to ensure your clothes
