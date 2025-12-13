@@ -1,127 +1,148 @@
 import { Layout } from "@/components/Layout";
 import { Link } from "react-router-dom";
-import { Sparkles, Zap, MapPin, Phone } from "lucide-react";
+import { Sparkles, Zap, MapPin, Phone, CheckCircle, Clock, Award } from "lucide-react";
 
 export default function Home() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-purple-600 via-pink-500 to-rose-400 text-white py-20 lg:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-gradient-to-br from-indigo-900 via-purple-800 to-pink-700 text-white overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-20 right-10 w-96 h-96 bg-pink-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+          <div className="absolute -bottom-8 left-20 w-96 h-96 bg-purple-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+        </div>
+
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
-                Laundrify
-              </h1>
-              <p className="text-2xl md:text-3xl font-semibold text-white mb-6">
-                Quick Clean & Convenient
+            <div className="space-y-6">
+              <div className="space-y-2">
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight">
+                  Laundrify
+                </h1>
+                <p className="text-2xl md:text-3xl font-semibold bg-gradient-to-r from-pink-300 to-blue-200 bg-clip-text text-transparent">
+                  Quick Clean & Convenient
+                </p>
+              </div>
+
+              <p className="text-lg md:text-xl text-gray-100 leading-relaxed max-w-lg">
+                Professional laundry and dry cleaning delivered to your doorstep in just <span className="font-bold text-pink-300">45 minutes</span>. Experience premium care with free pickup and delivery, plus up to <span className="font-bold text-pink-300">20% OFF</span> on express services.
               </p>
-              <p className="text-lg md:text-xl text-white mb-8 leading-relaxed opacity-95">
-                Professional laundry and dry cleaning delivered to your doorstep
-                in 45 minutes. Free pickup and delivery with up to 20% OFF on
-                express services.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+
+              <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link
                   to="/services"
-                  className="bg-white text-purple-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-lime-300 transition-colors text-center shadow-lg"
+                  className="bg-white text-purple-700 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all shadow-2xl hover:shadow-3xl transform hover:-translate-y-1"
                 >
                   Browse Services
                 </Link>
                 <a
                   href="tel:+917011585587"
-                  className="bg-lime-400 text-slate-900 px-8 py-3 rounded-full font-bold text-lg hover:bg-lime-300 transition-colors text-center shadow-lg"
+                  className="bg-gradient-to-r from-pink-400 to-red-400 text-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-2xl transition-all shadow-lg hover:-translate-y-1 flex items-center justify-center gap-2"
                 >
+                  <Phone className="w-5 h-5" />
                   Call Now
                 </a>
               </div>
+
+              <div className="flex flex-wrap gap-6 pt-4">
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-5 h-5 text-pink-300" />
+                  <span className="text-sm font-medium">45 Minute Express</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-5 h-5 text-pink-300" />
+                  <span className="text-sm font-medium">Free Delivery</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-5 h-5 text-pink-300" />
+                  <span className="text-sm font-medium">Premium Care</span>
+                </div>
+              </div>
             </div>
-            <div className="hidden lg:block">
-              <svg
-                className="w-full h-auto"
-                viewBox="0 0 400 400"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  cx="200"
-                  cy="200"
-                  r="150"
-                  fill="rgba(255,255,255,0.1)"
-                />
-                <circle
-                  cx="200"
-                  cy="200"
-                  r="120"
-                  fill="rgba(255,255,255,0.15)"
-                />
-                <rect
-                  x="150"
-                  y="120"
-                  width="100"
-                  height="160"
-                  rx="10"
-                  fill="white"
-                  opacity="0.2"
-                />
-                <rect
-                  x="170"
-                  y="140"
-                  width="60"
-                  height="120"
-                  rx="5"
-                  fill="white"
-                  opacity="0.3"
-                />
-              </svg>
+
+            <div className="hidden lg:flex items-center justify-center">
+              <div className="relative w-full h-96">
+                <svg
+                  className="w-full h-full"
+                  viewBox="0 0 400 500"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <defs>
+                    <linearGradient id="clothGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" style={{stopColor: '#fca5a5', stopOpacity: 0.4}} />
+                      <stop offset="100%" style={{stopColor: '#fbbf24', stopOpacity: 0.4}} />
+                    </linearGradient>
+                  </defs>
+
+                  <circle cx="200" cy="250" r="180" fill="rgba(255,255,255,0.08)" />
+                  <circle cx="200" cy="250" r="140" fill="rgba(255,255,255,0.05)" />
+
+                  <rect x="140" y="150" width="120" height="200" rx="16" fill="url(#clothGradient)" stroke="rgba(255,255,255,0.2)" strokeWidth="2" />
+
+                  <circle cx="200" cy="160" r="8" fill="rgba(255,255,255,0.3)" />
+                  <circle cx="200" cy="160" r="5" fill="rgba(255,255,255,0.5)" />
+
+                  <g opacity="0.3">
+                    <path d="M 160 200 Q 165 220 160 240" stroke="rgba(255,255,255,0.4)" strokeWidth="2" fill="none" />
+                    <path d="M 240 200 Q 235 220 240 240" stroke="rgba(255,255,255,0.4)" strokeWidth="2" fill="none" />
+                  </g>
+
+                  <path d="M 155 320 L 145 360 Q 145 365 150 365 L 165 320" fill="rgba(255,255,255,0.2)" />
+                  <path d="M 245 320 L 255 360 Q 255 365 250 365 L 235 320" fill="rgba(255,255,255,0.2)" />
+                </svg>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Key Features */}
-      <section className="py-16 lg:py-24 bg-white">
+      <section className="py-20 lg:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-slate-900">
-            Why Choose Laundrify?
-          </h2>
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+              Why Choose Laundrify?
+            </h2>
+            <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+              Experience the difference with our premium laundry services designed for busy professionals
+            </p>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl border border-purple-200">
-              <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-500 rounded-lg flex items-center justify-center mb-4">
-                <Zap className="w-6 h-6 text-white" />
+            <div className="group p-8 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl border border-purple-100 hover:border-purple-300 transition-all hover:shadow-xl">
+              <div className="w-14 h-14 bg-gradient-to-br from-purple-600 to-pink-500 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                <Zap className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-2">
+              <h3 className="text-2xl font-bold text-slate-900 mb-3">
                 Express Service
               </h3>
-              <p className="text-slate-600">
-                Get your clothes cleaned and delivered in 45 minutes with our
-                fast express service.
+              <p className="text-slate-600 leading-relaxed">
+                Get your clothes cleaned and delivered in just 45 minutes with our lightning-fast express service.
               </p>
             </div>
 
-            <div className="p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl border border-purple-200">
-              <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-500 rounded-lg flex items-center justify-center mb-4">
-                <MapPin className="w-6 h-6 text-white" />
+            <div className="group p-8 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl border border-indigo-100 hover:border-indigo-300 transition-all hover:shadow-xl">
+              <div className="w-14 h-14 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                <MapPin className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-2">
+              <h3 className="text-2xl font-bold text-slate-900 mb-3">
                 Free Pickup & Delivery
               </h3>
-              <p className="text-slate-600">
-                We pick up and deliver your laundry for free across both
-                branches.
+              <p className="text-slate-600 leading-relaxed">
+                Complimentary pickup and delivery service across all locations. No hidden charges, no surprises.
               </p>
             </div>
 
-            <div className="p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl border border-purple-200">
-              <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-500 rounded-lg flex items-center justify-center mb-4">
-                <Sparkles className="w-6 h-6 text-white" />
+            <div className="group p-8 bg-gradient-to-br from-pink-50 to-red-50 rounded-2xl border border-pink-100 hover:border-pink-300 transition-all hover:shadow-xl">
+              <div className="w-14 h-14 bg-gradient-to-br from-pink-600 to-red-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                <Award className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-2">
+              <h3 className="text-2xl font-bold text-slate-900 mb-3">
                 Premium Quality
               </h3>
-              <p className="text-slate-600">
-                Professional care for all types of garments using premium
-                detergents and equipment.
+              <p className="text-slate-600 leading-relaxed">
+                Professional care using premium detergents and eco-friendly equipment. Your clothes deserve the best.
               </p>
             </div>
           </div>
@@ -129,47 +150,55 @@ export default function Home() {
       </section>
 
       {/* Services Overview */}
-      <section className="py-16 lg:py-24 bg-slate-50">
+      <section className="py-20 lg:py-28 bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-slate-900">
-            Our Services
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-            <div className="bg-white p-6 rounded-lg border border-slate-200 text-center hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-3">👕</div>
-              <h3 className="font-bold text-slate-900 mb-2">Laundry</h3>
-              <p className="text-sm text-slate-600">
-                Washing with fold or iron service
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+              Our Services
+            </h2>
+            <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+              Comprehensive laundry and dry cleaning solutions tailored to your needs
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            <div className="group bg-white p-8 rounded-xl border border-slate-200 text-center hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">👕</div>
+              <h3 className="font-bold text-slate-900 mb-2 text-lg">Laundry</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                Washing with fold or iron service included
               </p>
             </div>
-            <div className="bg-white p-6 rounded-lg border border-slate-200 text-center hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-3">👔</div>
-              <h3 className="font-bold text-slate-900 mb-2">Men's Dry Clean</h3>
-              <p className="text-sm text-slate-600">
+
+            <div className="group bg-white p-8 rounded-xl border border-slate-200 text-center hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">👔</div>
+              <h3 className="font-bold text-slate-900 mb-2 text-lg">Men's Dry Clean</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">
                 Professional dry cleaning for men's wear
               </p>
             </div>
-            <div className="bg-white p-6 rounded-lg border border-slate-200 text-center hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-3">👗</div>
-              <h3 className="font-bold text-slate-900 mb-2">
-                Women's Dry Clean
-              </h3>
-              <p className="text-sm text-slate-600">
+
+            <div className="group bg-white p-8 rounded-xl border border-slate-200 text-center hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">👗</div>
+              <h3 className="font-bold text-slate-900 mb-2 text-lg">Women's Dry Clean</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">
                 Specialized care for women's garments
               </p>
             </div>
-            <div className="bg-white p-6 rounded-lg border border-slate-200 text-center hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-3">🧥</div>
-              <h3 className="font-bold text-slate-900 mb-2">Woolen Care</h3>
-              <p className="text-sm text-slate-600">
+
+            <div className="group bg-white p-8 rounded-xl border border-slate-200 text-center hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">🧥</div>
+              <h3 className="font-bold text-slate-900 mb-2 text-lg">Woolen Care</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">
                 Gentle cleaning for delicate woolens
               </p>
             </div>
           </div>
+
           <div className="text-center">
             <Link
               to="/services"
-              className="inline-block bg-gradient-to-r from-purple-600 to-pink-500 text-white px-8 py-3 rounded-full font-bold hover:shadow-lg transition-all"
+              className="inline-block bg-gradient-to-r from-purple-600 to-pink-500 text-white px-10 py-4 rounded-lg font-bold text-lg hover:shadow-2xl transition-all hover:-translate-y-1"
             >
               View All Services & Pricing
             </Link>
@@ -178,28 +207,33 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-16 lg:py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+      <section className="relative bg-gradient-to-r from-indigo-900 via-purple-800 to-pink-700 text-white py-20 lg:py-24 overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-10 right-20 w-72 h-72 bg-pink-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+          <div className="absolute -bottom-10 left-10 w-72 h-72 bg-purple-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+        </div>
+
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             Ready to Experience Premium Laundry Service?
           </h2>
-          <p className="text-lg text-white mb-8 opacity-95">
-            Get up to 20% OFF on your first express service order. Free pickup
-            and delivery available.
+          <p className="text-lg text-gray-200 mb-10 max-w-2xl mx-auto leading-relaxed">
+            Get up to <span className="text-pink-300 font-bold">20% OFF</span> on your first express service order. Free pickup and delivery available in your area.
           </p>
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+917011585587"
-              className="bg-white text-purple-600 px-8 py-3 rounded-full font-bold hover:bg-lime-300 transition-colors text-center flex items-center justify-center gap-2 shadow-lg"
+              className="bg-white text-purple-700 px-10 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all flex items-center justify-center gap-2 shadow-2xl hover:shadow-3xl"
             >
               <Phone className="w-5 h-5" />
               Call: +91 7011585587
             </a>
             <Link
               to="/contact"
-              className="bg-lime-400 text-slate-900 px-8 py-3 rounded-full font-bold hover:bg-lime-300 transition-colors text-center shadow-lg"
+              className="bg-gradient-to-r from-pink-400 to-red-400 text-white px-10 py-4 rounded-lg font-bold text-lg hover:shadow-2xl transition-all shadow-lg"
             >
-              Visit Us
+              Get in Touch
             </Link>
           </div>
         </div>
