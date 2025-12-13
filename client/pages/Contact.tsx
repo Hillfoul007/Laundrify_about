@@ -74,7 +74,7 @@ export default function Contact() {
                       loading="lazy"
                       allowFullScreen
                       referrerPolicy="no-referrer-when-downgrade"
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.6851844551656!2d77.05373!3d28.5178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceff5bdfffffd%3A0x123456789!2sSector%2043%2C%20Gurgaon!5e0!3m2!1sen!2sin!4v1234567890"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.692!2d77.0537!3d28.5175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceff5!2sB-175%20Sushant%20Lok!5e0!3m2!1sen!2sin!4v1234567890"
                     />
                   </div>
                   <div className="p-6">
@@ -88,10 +88,13 @@ export default function Contact() {
                           <p className="font-semibold text-slate-900">
                             Location
                           </p>
-                          <p className="text-slate-600">
-                            UGF - 109, Vyapar Kendra Rd, Block C, Sushant Lok
-                            Phase I, Sector 43, Gurugram, Haryana 122009
-                          </p>
+                          <div className="text-slate-600">
+                            <div>
+                              B-175, Sushant Lok Phase I, Sector 43,
+                              Gurugram, Haryana 122002
+                            </div>
+                            <div></div>
+                          </div>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
