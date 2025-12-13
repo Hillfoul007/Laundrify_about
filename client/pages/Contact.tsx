@@ -79,7 +79,7 @@ export default function Contact() {
                   </div>
                   <div className="p-6">
                     <h3 className="text-2xl font-bold text-slate-900 mb-4">
-                      Sector 43 Branch
+                      Laundry26 - Sector 43
                     </h3>
                     <div className="space-y-4">
                       <div className="flex items-start gap-3">
@@ -88,7 +88,7 @@ export default function Contact() {
                           <p className="font-semibold text-slate-900">
                             Location
                           </p>
-                          <p className="text-slate-600">Sector 43, Gurgaon</p>
+                          <p className="text-slate-600">UGF - 109, Vyapar Kendra Rd, Block C, Sushant Lok Phase I, Sector 43, Gurugram, Haryana 122009</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
