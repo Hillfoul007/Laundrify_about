@@ -40,7 +40,7 @@ export default function Contact() {
                 Visit Us
               </h3>
               <p className="text-slate-600">
-                We have branches in Sector 43 and Sector 69, Gurgaon
+                Laundry26 (Sector 43) & Shiv Laundry (Sector 69), Gurgaon
               </p>
             </div>
 
