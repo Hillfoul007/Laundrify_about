@@ -90,8 +90,8 @@ export default function Contact() {
                           </p>
                           <div className="text-slate-600">
                             <div>
-                              B-175, Sushant Lok Phase I, Sector 43,
-                              Gurugram, Haryana 122002
+                              B-175, Sushant Lok Phase I, Sector 43, Gurugram,
+                              Haryana 122002
                             </div>
                             <div></div>
                           </div>
