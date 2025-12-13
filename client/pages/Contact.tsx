@@ -106,6 +106,7 @@ export default function Contact() {
                             className="text-purple-600 hover:text-pink-600"
                           >
                             +91 7011585587
+                            <br />
                           </a>
                         </div>
                       </div>
