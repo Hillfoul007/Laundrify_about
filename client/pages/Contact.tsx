@@ -88,7 +88,10 @@ export default function Contact() {
                           <p className="font-semibold text-slate-900">
                             Location
                           </p>
-                          <p className="text-slate-600">UGF - 109, Vyapar Kendra Rd, Block C, Sushant Lok Phase I, Sector 43, Gurugram, Haryana 122009</p>
+                          <p className="text-slate-600">
+                            UGF - 109, Vyapar Kendra Rd, Block C, Sushant Lok
+                            Phase I, Sector 43, Gurugram, Haryana 122009
+                          </p>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
@@ -140,7 +143,10 @@ export default function Contact() {
                           <p className="font-semibold text-slate-900">
                             Location
                           </p>
-                          <p className="text-slate-600">Star Galaxy PG, C block, Sector 69, Gurugram, Haryana 122101</p>
+                          <p className="text-slate-600">
+                            Star Galaxy PG, C block, Sector 69, Gurugram,
+                            Haryana 122101
+                          </p>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">

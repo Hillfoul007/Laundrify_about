@@ -31,11 +31,11 @@ export default function About() {
                 your clothes shouldn't be a burden.
               </p>
               <p className="text-lg text-slate-600 mb-4 leading-relaxed">
-                With operations at Laundry26 (Sector 43) and Shiv Laundry (Sector 69) in Gurgaon, we've
-                built a reputation for excellence, reliability, and customer
-                satisfaction. Our team of experienced professionals uses premium
-                detergents and state-of-the-art equipment to ensure your clothes
-                receive the best care.
+                With operations at Laundry26 (Sector 43) and Shiv Laundry
+                (Sector 69) in Gurgaon, we've built a reputation for excellence,
+                reliability, and customer satisfaction. Our team of experienced
+                professionals uses premium detergents and state-of-the-art
+                equipment to ensure your clothes receive the best care.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
                 Today, Laundrify is the preferred choice for thousands of
