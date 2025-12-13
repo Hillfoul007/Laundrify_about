@@ -1,6 +1,14 @@
 import { Layout } from "@/components/Layout";
 import { Link } from "react-router-dom";
-import { Sparkles, Zap, MapPin, Phone, CheckCircle, Clock, Award } from "lucide-react";
+import {
+  Sparkles,
+  Zap,
+  MapPin,
+  Phone,
+  CheckCircle,
+  Clock,
+  Award,
+} from "lucide-react";
 
 export default function Home() {
   return (
@@ -25,7 +33,12 @@ export default function Home() {
               </div>
 
               <p className="text-lg md:text-xl text-gray-100 leading-relaxed max-w-lg">
-                Professional laundry and dry cleaning delivered to your doorstep in just <span className="font-bold text-pink-300">45 minutes</span>. Experience premium care with free pickup and delivery, plus up to <span className="font-bold text-pink-300">20% OFF</span> on express services.
+                Professional laundry and dry cleaning delivered to your doorstep
+                in just{" "}
+                <span className="font-bold text-pink-300">45 minutes</span>.
+                Experience premium care with free pickup and delivery, plus up
+                to <span className="font-bold text-pink-300">20% OFF</span> on
+                express services.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -69,27 +82,84 @@ export default function Home() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <defs>
-                    <linearGradient id="clothGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" style={{stopColor: '#fca5a5', stopOpacity: 0.4}} />
-                      <stop offset="100%" style={{stopColor: '#fbbf24', stopOpacity: 0.4}} />
+                    <linearGradient
+                      id="clothGradient"
+                      x1="0%"
+                      y1="0%"
+                      x2="100%"
+                      y2="100%"
+                    >
+                      <stop
+                        offset="0%"
+                        style={{ stopColor: "#fca5a5", stopOpacity: 0.4 }}
+                      />
+                      <stop
+                        offset="100%"
+                        style={{ stopColor: "#fbbf24", stopOpacity: 0.4 }}
+                      />
                     </linearGradient>
                   </defs>
 
-                  <circle cx="200" cy="250" r="180" fill="rgba(255,255,255,0.08)" />
-                  <circle cx="200" cy="250" r="140" fill="rgba(255,255,255,0.05)" />
+                  <circle
+                    cx="200"
+                    cy="250"
+                    r="180"
+                    fill="rgba(255,255,255,0.08)"
+                  />
+                  <circle
+                    cx="200"
+                    cy="250"
+                    r="140"
+                    fill="rgba(255,255,255,0.05)"
+                  />
 
-                  <rect x="140" y="150" width="120" height="200" rx="16" fill="url(#clothGradient)" stroke="rgba(255,255,255,0.2)" strokeWidth="2" />
+                  <rect
+                    x="140"
+                    y="150"
+                    width="120"
+                    height="200"
+                    rx="16"
+                    fill="url(#clothGradient)"
+                    stroke="rgba(255,255,255,0.2)"
+                    strokeWidth="2"
+                  />
 
-                  <circle cx="200" cy="160" r="8" fill="rgba(255,255,255,0.3)" />
-                  <circle cx="200" cy="160" r="5" fill="rgba(255,255,255,0.5)" />
+                  <circle
+                    cx="200"
+                    cy="160"
+                    r="8"
+                    fill="rgba(255,255,255,0.3)"
+                  />
+                  <circle
+                    cx="200"
+                    cy="160"
+                    r="5"
+                    fill="rgba(255,255,255,0.5)"
+                  />
 
                   <g opacity="0.3">
-                    <path d="M 160 200 Q 165 220 160 240" stroke="rgba(255,255,255,0.4)" strokeWidth="2" fill="none" />
-                    <path d="M 240 200 Q 235 220 240 240" stroke="rgba(255,255,255,0.4)" strokeWidth="2" fill="none" />
+                    <path
+                      d="M 160 200 Q 165 220 160 240"
+                      stroke="rgba(255,255,255,0.4)"
+                      strokeWidth="2"
+                      fill="none"
+                    />
+                    <path
+                      d="M 240 200 Q 235 220 240 240"
+                      stroke="rgba(255,255,255,0.4)"
+                      strokeWidth="2"
+                      fill="none"
+                    />
                   </g>
 
-                  <path d="M 155 320 L 145 360 Q 145 365 150 365 L 165 320" fill="rgba(255,255,255,0.2)" />
-                  <path d="M 245 320 L 255 360 Q 255 365 250 365 L 235 320" fill="rgba(255,255,255,0.2)" />
+                  <path
+                    d="M 155 320 L 145 360 Q 145 365 150 365 L 165 320"
+                    fill="rgba(255,255,255,0.2)"
+                  />
+                  <path
+                    d="M 245 320 L 255 360 Q 255 365 250 365 L 235 320"
+                    fill="rgba(255,255,255,0.2)"
+                  />
                 </svg>
               </div>
             </div>
@@ -105,7 +175,8 @@ export default function Home() {
               Why Choose Laundrify?
             </h2>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-              Experience the difference with our premium laundry services designed for busy professionals
+              Experience the difference with our premium laundry services
+              designed for busy professionals
             </p>
           </div>
 
@@ -118,7 +189,8 @@ export default function Home() {
                 Express Service
               </h3>
               <p className="text-slate-600 leading-relaxed">
-                Get your clothes cleaned and delivered in just 45 minutes with our lightning-fast express service.
+                Get your clothes cleaned and delivered in just 45 minutes with
+                our lightning-fast express service.
               </p>
             </div>
 
@@ -130,7 +202,8 @@ export default function Home() {
                 Free Pickup & Delivery
               </h3>
               <p className="text-slate-600 leading-relaxed">
-                Complimentary pickup and delivery service across all locations. No hidden charges, no surprises.
+                Complimentary pickup and delivery service across all locations.
+                No hidden charges, no surprises.
               </p>
             </div>
 
@@ -142,7 +215,8 @@ export default function Home() {
                 Premium Quality
               </h3>
               <p className="text-slate-600 leading-relaxed">
-                Professional care using premium detergents and eco-friendly equipment. Your clothes deserve the best.
+                Professional care using premium detergents and eco-friendly
+                equipment. Your clothes deserve the best.
               </p>
             </div>
           </div>
@@ -157,13 +231,16 @@ export default function Home() {
               Our Services
             </h2>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-              Comprehensive laundry and dry cleaning solutions tailored to your needs
+              Comprehensive laundry and dry cleaning solutions tailored to your
+              needs
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             <div className="group bg-white p-8 rounded-xl border border-slate-200 text-center hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">👕</div>
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">
+                👕
+              </div>
               <h3 className="font-bold text-slate-900 mb-2 text-lg">Laundry</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 Washing with fold or iron service included
@@ -171,24 +248,36 @@ export default function Home() {
             </div>
 
             <div className="group bg-white p-8 rounded-xl border border-slate-200 text-center hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">👔</div>
-              <h3 className="font-bold text-slate-900 mb-2 text-lg">Men's Dry Clean</h3>
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">
+                👔
+              </div>
+              <h3 className="font-bold text-slate-900 mb-2 text-lg">
+                Men's Dry Clean
+              </h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 Professional dry cleaning for men's wear
               </p>
             </div>
 
             <div className="group bg-white p-8 rounded-xl border border-slate-200 text-center hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">👗</div>
-              <h3 className="font-bold text-slate-900 mb-2 text-lg">Women's Dry Clean</h3>
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">
+                👗
+              </div>
+              <h3 className="font-bold text-slate-900 mb-2 text-lg">
+                Women's Dry Clean
+              </h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 Specialized care for women's garments
               </p>
             </div>
 
             <div className="group bg-white p-8 rounded-xl border border-slate-200 text-center hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">🧥</div>
-              <h3 className="font-bold text-slate-900 mb-2 text-lg">Woolen Care</h3>
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">
+                🧥
+              </div>
+              <h3 className="font-bold text-slate-900 mb-2 text-lg">
+                Woolen Care
+              </h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 Gentle cleaning for delicate woolens
               </p>
@@ -218,7 +307,9 @@ export default function Home() {
             Ready to Experience Premium Laundry Service?
           </h2>
           <p className="text-lg text-gray-200 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Get up to <span className="text-pink-300 font-bold">20% OFF</span> on your first express service order. Free pickup and delivery available in your area.
+            Get up to <span className="text-pink-300 font-bold">20% OFF</span>{" "}
+            on your first express service order. Free pickup and delivery
+            available in your area.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
