@@ -1,5 +1,14 @@
-routes:
-  - path: /*
-    methods: [GET, HEAD, OPTIONS]
-    matchType: prefix
-    dest: /index.html
+services:
+  - type: web
+    name: laundrify
+    env: node
+    region: ohio
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
+    healthCheckPath: /api/ping
+    healthCheckInterval: 30
+    healthCheckTimeout: 5
+    envVars:
+      - key: NODE_ENV
+        value: production
