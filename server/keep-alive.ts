@@ -8,7 +8,9 @@ export function setupKeepAlive(port: number) {
     try {
       const response = await fetch(`${baseUrl}/api/ping`);
       if (response.ok) {
-        console.log(`[Keep-Alive] Pinged service at ${new Date().toISOString()}`);
+        console.log(
+          `[Keep-Alive] Pinged service at ${new Date().toISOString()}`,
+        );
       }
     } catch (error) {
       console.error(`[Keep-Alive] Failed to ping service:`, error);
