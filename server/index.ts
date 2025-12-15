@@ -11,10 +11,15 @@ export function createServer() {
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
 
-  // Example API routes
+  // Health check endpoint (used by Render)
   app.get("/api/ping", (_req, res) => {
     const ping = process.env.PING_MESSAGE ?? "ping";
-    res.json({ message: ping });
+    res.json({ message: ping, timestamp: new Date().toISOString() });
+  });
+
+  // Alias for health check
+  app.get("/api/health", (_req, res) => {
+    res.json({ status: "healthy", timestamp: new Date().toISOString() });
   });
 
   app.get("/api/demo", handleDemo);
