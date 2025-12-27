@@ -34,10 +34,10 @@ export default function Contact() {
               <h3 className="text-xl font-bold text-slate-900 mb-2">Call Us</h3>
               <p className="text-slate-600 mb-2">Available 24/7</p>
               <a
-                href="tel:+919315989054"
+                href="tel:+917011585587"
                 className="text-purple-600 font-bold hover:text-pink-600 text-lg"
               >
-                +91 9315989054
+                +91 7011585587
               </a>
             </div>
 
