@@ -111,10 +111,10 @@ export default function Contact() {
                         <div>
                           <p className="font-semibold text-slate-900">Phone</p>
                           <a
-                            href="tel:+919315989054"
+                            href="tel:+917011585587"
                             className="text-purple-600 hover:text-pink-600"
                           >
-                            +91 9315989054
+                            +91 7011585587
                             <br />
                           </a>
                         </div>
