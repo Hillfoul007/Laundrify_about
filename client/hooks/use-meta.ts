@@ -9,7 +9,7 @@ interface MetaOptions {
 export function useMeta(options: MetaOptions) {
   useEffect(() => {
     document.title = options.title;
-    
+
     const descriptionMeta = document.querySelector('meta[name="description"]');
     if (descriptionMeta) {
       descriptionMeta.setAttribute("content", options.description);
@@ -29,7 +29,7 @@ export function useMeta(options: MetaOptions) {
     }
 
     const ogDescription = document.querySelector(
-      'meta[property="og:description"]'
+      'meta[property="og:description"]',
     );
     if (ogDescription) {
       ogDescription.setAttribute("content", options.description);
