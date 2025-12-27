@@ -6,7 +6,7 @@ export default function Contact() {
   useMeta({
     title: "Contact Laundrify - Reach Us 24/7 | Gurgaon Laundry Service",
     description:
-      "Get in touch with Laundrify. Call us at +91 9315989054 or visit our branches in Sector 43 and Sector 69, Gurgaon. 24/7 service available.",
+      "Get in touch with Laundrify. Call us at +91 7011585587 or visit our branches in Sector 43 and Sector 69, Gurgaon. 24/7 service available.",
     keywords:
       "contact laundrify, laundry service contact, Gurgaon dry cleaning contact, customer service",
   });
