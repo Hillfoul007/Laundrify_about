@@ -41,16 +41,34 @@ export default function Home() {
                 express services.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <div className="flex items-center gap-2 pt-2">
+                <Phone className="w-5 h-5 text-pink-300" />
+                <a
+                  href="tel:+919315989054"
+                  className="text-lg font-bold text-pink-200 hover:text-white transition-colors"
+                >
+                  +91 9315989054
+                </a>
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-4 pt-6">
+                <a
+                  href="https://www.laundrify.online"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white text-purple-700 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 text-center"
+                >
+                  Book Service
+                </a>
                 <Link
                   to="/services"
-                  className="bg-white text-purple-700 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all shadow-2xl hover:shadow-3xl transform hover:-translate-y-1"
+                  className="bg-gradient-to-r from-pink-400 to-red-400 text-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-2xl transition-all shadow-lg hover:-translate-y-1 flex items-center justify-center gap-2"
                 >
                   Browse Services
                 </Link>
                 <a
-                  href="tel:+917011585587"
-                  className="bg-gradient-to-r from-pink-400 to-red-400 text-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-2xl transition-all shadow-lg hover:-translate-y-1 flex items-center justify-center gap-2"
+                  href="tel:+919315989054"
+                  className="bg-gradient-to-r from-blue-400 to-purple-400 text-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-2xl transition-all shadow-lg hover:-translate-y-1 flex items-center justify-center gap-2"
                 >
                   <Phone className="w-5 h-5" />
                   Call Now
