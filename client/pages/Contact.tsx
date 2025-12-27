@@ -25,10 +25,10 @@ export default function Contact() {
               <h3 className="text-xl font-bold text-slate-900 mb-2">Call Us</h3>
               <p className="text-slate-600 mb-2">Available 24/7</p>
               <a
-                href="tel:+917011585587"
+                href="tel:+919315989054"
                 className="text-purple-600 font-bold hover:text-pink-600 text-lg"
               >
-                +91 7011585587
+                +91 9315989054
               </a>
             </div>
 
@@ -102,10 +102,10 @@ export default function Contact() {
                         <div>
                           <p className="font-semibold text-slate-900">Phone</p>
                           <a
-                            href="tel:+917011585587"
+                            href="tel:+919315989054"
                             className="text-purple-600 hover:text-pink-600"
                           >
-                            +91 7011585587
+                            +91 9315989054
                             <br />
                           </a>
                         </div>
@@ -158,10 +158,10 @@ export default function Contact() {
                         <div>
                           <p className="font-semibold text-slate-900">Phone</p>
                           <a
-                            href="tel:+917011585587"
+                            href="tel:+919315989054"
                             className="text-purple-600 hover:text-pink-600"
                           >
-                            +91 7011585587
+                            +91 9315989054
                           </a>
                         </div>
                       </div>
