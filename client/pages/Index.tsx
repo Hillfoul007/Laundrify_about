@@ -15,7 +15,7 @@ export default function Home() {
   useMeta({
     title: "Laundrify - Express Laundry & Dry Cleaning Service in Gurgaon",
     description:
-      "Professional laundry and dry cleaning delivered in 45 minutes. Free pickup & delivery, premium care, 24/7 available. Book now and get up to 20% OFF on express services.",
+      "Professional laundry and dry cleaning delivered in 45 minutes. Free pickup & delivery, premium care, 24/7 available. Call +91 7011585587. Book now and get up to 20% OFF on express services.",
     keywords:
       "laundry service Gurgaon, dry cleaning, express laundry, pickup delivery, professional cleaning, Sector 43, Sector 69",
   });
