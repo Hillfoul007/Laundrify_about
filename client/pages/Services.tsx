@@ -1,8 +1,17 @@
 import { Layout } from "@/components/Layout";
+import { useMeta } from "@/hooks/use-meta";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card } from "@/components/ui/card";
 
 export default function Services() {
+  useMeta({
+    title: "Laundry & Dry Cleaning Services | Laundrify Gurgaon",
+    description:
+      "Explore our comprehensive laundry services including express laundry, men's dry cleaning, women's dry cleaning, and woolen care. Transparent pricing with up to 20% OFF.",
+    keywords:
+      "laundry services, dry cleaning services, mens dry clean, womens dry clean, woolen care, express service",
+  });
+
   return (
     <Layout>
       {/* Header */}
