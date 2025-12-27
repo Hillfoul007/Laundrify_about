@@ -1,7 +1,16 @@
 import { Layout } from "@/components/Layout";
+import { useMeta } from "@/hooks/use-meta";
 import { CheckCircle } from "lucide-react";
 
 export default function About() {
+  useMeta({
+    title: "About Laundrify - Professional Laundry Service in Gurgaon",
+    description:
+      "Learn about Laundrify's mission to provide premium laundry and dry cleaning services. Operating in Sector 43 and Sector 69, Gurgaon with expert professionals.",
+    keywords:
+      "about laundrify, laundry service provider, professional cleaning, Gurgaon laundry",
+  });
+
   return (
     <Layout>
       {/* Header */}
