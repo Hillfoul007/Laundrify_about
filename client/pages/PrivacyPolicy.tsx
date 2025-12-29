@@ -15,7 +15,9 @@ export default function PrivacyPolicy() {
       {/* Header */}
       <section className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Privacy Policy</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            Privacy Policy
+          </h1>
           <p className="text-lg text-white opacity-95">
             Your privacy matters to us
           </p>
@@ -156,8 +158,7 @@ export default function PrivacyPolicy() {
                     •
                   </span>
                   <span>
-                    Access to personal information is restricted and
-                    controlled.
+                    Access to personal information is restricted and controlled.
                   </span>
                 </li>
               </ul>
@@ -174,8 +175,7 @@ export default function PrivacyPolicy() {
                     •
                   </span>
                   <span>
-                    Laundrify is not intended for children under the age of
-                    13.
+                    Laundrify is not intended for children under the age of 13.
                   </span>
                 </li>
                 <li className="flex gap-4">
