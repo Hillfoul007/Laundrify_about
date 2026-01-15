@@ -4,7 +4,8 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export default function Contact() {
   useMeta({
-    title: "Contact Laundrify - 24/7 Laundry Service in Gurgaon | +91 7011585587",
+    title:
+      "Contact Laundrify - 24/7 Laundry Service in Gurgaon | +91 7011585587",
     description:
       "Contact Laundrify for laundry & dry cleaning services. Sector 43 & Sector 69, Gurgaon. Call +91 7011585587 for free pickup & delivery. 24/7 customer support. Book now for ₹59/kg laundry, ₹100 dry cleaning.",
     keywords:

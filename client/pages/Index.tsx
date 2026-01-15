@@ -13,7 +13,8 @@ import {
 
 export default function Home() {
   useMeta({
-    title: "Laundrify - Express Laundry & Dry Cleaning Service in Gurgaon | Best Prices ₹59",
+    title:
+      "Laundrify - Express Laundry & Dry Cleaning Service in Gurgaon | Best Prices ₹59",
     description:
       "Professional laundry & dry cleaning delivered in 45 minutes. Laundry from ₹59/kg, dry cleaning from ₹100. Free pickup & delivery, 24/7 service in Sector 43 & 69, Gurgaon. Call +91 7011585587.",
     keywords:
@@ -272,7 +273,9 @@ export default function Home() {
             </div>
 
             <div className="p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg border border-purple-200 hover:shadow-lg transition-shadow">
-              <div className="text-3xl font-bold text-purple-600 mb-2">₹120</div>
+              <div className="text-3xl font-bold text-purple-600 mb-2">
+                ₹120
+              </div>
               <p className="text-slate-700 font-semibold mb-1">
                 Laundry with Iron
               </p>
@@ -289,7 +292,9 @@ export default function Home() {
 
             <div className="p-6 bg-gradient-to-br from-pink-50 to-red-50 rounded-lg border border-pink-200 hover:shadow-lg transition-shadow">
               <div className="text-3xl font-bold text-pink-600 mb-2">20%</div>
-              <p className="text-slate-700 font-semibold mb-1">Extra Discount</p>
+              <p className="text-slate-700 font-semibold mb-1">
+                Extra Discount
+              </p>
               <p className="text-sm text-slate-600">express service</p>
             </div>
           </div>
