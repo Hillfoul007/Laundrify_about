@@ -6,7 +6,7 @@ export default function About() {
   useMeta({
     title: "About Laundrify - Premium Laundry & Dry Cleaning in Gurgaon",
     description:
-      "Laundrify provides professional laundry and dry cleaning services with express 45-minute delivery. Premium care with modern equipment. Serving Sector 43 & 69, Gurgaon. Trusted by thousands for affordable ₹80/kg laundry service.",
+      "Laundrify provides professional laundry and dry cleaning services with express 45-minute delivery. Premium care with modern equipment. Serving Sector 43 & 69, Gurgaon. Trusted by thousands for affordable ₹59/kg laundry service.",
     keywords:
       "about laundrify, laundry service provider, professional cleaning, Gurgaon laundry, express laundry service, premium dry cleaning, professional laundry business, customer satisfaction, expert laundry service",
   });
