@@ -4,11 +4,11 @@ import { CheckCircle } from "lucide-react";
 
 export default function About() {
   useMeta({
-    title: "About Laundrify - Professional Laundry Service in Gurgaon",
+    title: "About Laundrify - Premium Laundry & Dry Cleaning in Gurgaon",
     description:
-      "Learn about Laundrify's mission to provide premium laundry and dry cleaning services. Operating in Sector 43 and Sector 69, Gurgaon with expert professionals.",
+      "Laundrify provides professional laundry and dry cleaning services with express 45-minute delivery. Premium care with modern equipment. Serving Sector 43 & 69, Gurgaon. Trusted by thousands for affordable ₹80/kg laundry service.",
     keywords:
-      "about laundrify, laundry service provider, professional cleaning, Gurgaon laundry",
+      "about laundrify, laundry service provider, professional cleaning, Gurgaon laundry, express laundry service, premium dry cleaning, professional laundry business, customer satisfaction, expert laundry service",
   });
 
   return (
