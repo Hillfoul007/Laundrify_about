@@ -3,11 +3,11 @@ import { useMeta } from "@/hooks/use-meta";
 
 export default function PrivacyPolicy() {
   useMeta({
-    title: "Privacy Policy - Laundrify | Laundry Service Data Protection",
+    title: "Privacy Policy - Laundrify Laundry Service",
     description:
-      "Laundrify Privacy Policy. Learn how we protect your personal data including name, phone, address, and location for laundry services.",
+      "Laundrify Privacy Policy - We protect your personal data including name, phone, address, and location for laundry & dry cleaning services. Secure, transparent data handling.",
     keywords:
-      "privacy policy, data protection, Laundrify privacy, laundry service privacy",
+      "privacy policy, data protection, Laundrify privacy, laundry service privacy, personal information security",
   });
 
   return (
