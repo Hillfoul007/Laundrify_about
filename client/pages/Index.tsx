@@ -250,6 +250,61 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Pricing Showcase */}
+      <section className="py-16 lg:py-20 bg-white border-y border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+              Affordable Pricing
+            </h2>
+            <p className="text-lg text-slate-600">
+              Transparent pricing with no hidden charges
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg border border-purple-200 hover:shadow-lg transition-shadow">
+              <div className="text-3xl font-bold text-purple-600 mb-2">₹80</div>
+              <p className="text-slate-700 font-semibold mb-1">
+                Laundry with Fold
+              </p>
+              <p className="text-sm text-slate-600">per kg</p>
+            </div>
+
+            <div className="p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg border border-purple-200 hover:shadow-lg transition-shadow">
+              <div className="text-3xl font-bold text-purple-600 mb-2">₹120</div>
+              <p className="text-slate-700 font-semibold mb-1">
+                Laundry with Iron
+              </p>
+              <p className="text-sm text-slate-600">per kg</p>
+            </div>
+
+            <div className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-lg transition-shadow">
+              <div className="text-3xl font-bold text-blue-600 mb-2">₹100</div>
+              <p className="text-slate-700 font-semibold mb-1">
+                Men's Dry Clean
+              </p>
+              <p className="text-sm text-slate-600">starting price</p>
+            </div>
+
+            <div className="p-6 bg-gradient-to-br from-pink-50 to-red-50 rounded-lg border border-pink-200 hover:shadow-lg transition-shadow">
+              <div className="text-3xl font-bold text-pink-600 mb-2">20%</div>
+              <p className="text-slate-700 font-semibold mb-1">Extra Discount</p>
+              <p className="text-sm text-slate-600">express service</p>
+            </div>
+          </div>
+
+          <div className="mt-10 text-center">
+            <Link
+              to="/services"
+              className="inline-block text-purple-600 font-semibold hover:text-pink-600 transition-colors"
+            >
+              View complete pricing details →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Services Overview */}
       <section className="py-20 lg:py-28 bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
