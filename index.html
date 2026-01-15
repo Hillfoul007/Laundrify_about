@@ -52,30 +52,58 @@
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Laundrify",
-        "description": "Professional laundry and dry cleaning service with express 45-minute delivery",
+        "description": "Professional laundry and dry cleaning service with express 45-minute delivery. Affordable pricing from ₹80/kg for laundry and ₹100 for dry cleaning.",
         "url": "https://laundrify.online",
         "telephone": "+917011585587",
         "address": [
           {
             "@type": "PostalAddress",
-            "streetAddress": "Sector 43",
+            "streetAddress": "B-175, Sushant Lok Phase I, Sector 43",
             "addressLocality": "Gurgaon",
             "addressRegion": "Haryana",
-            "postalCode": "122001",
+            "postalCode": "122002",
             "addressCountry": "IN"
           },
           {
             "@type": "PostalAddress",
-            "streetAddress": "Sector 69",
+            "streetAddress": "Star Galaxy PG, C block, Sector 69",
             "addressLocality": "Gurgaon",
             "addressRegion": "Haryana",
+            "postalCode": "122101",
             "addressCountry": "IN"
           }
         ],
         "image": "https://laundrify.online/og-image.png",
-        "priceRange": "₹",
+        "priceRange": "₹80 - ₹1000",
         "areaServed": "Gurgaon, Haryana",
-        "serviceType": ["Laundry Service", "Dry Cleaning", "Express Laundry"],
+        "serviceType": ["Laundry Service", "Dry Cleaning", "Express Laundry", "Woolen Care", "Shoe Care"],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Laundry Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Laundry with Fold",
+              "price": "80",
+              "priceCurrency": "INR",
+              "unitText": "per kg"
+            },
+            {
+              "@type": "Offer",
+              "name": "Laundry with Iron",
+              "price": "120",
+              "priceCurrency": "INR",
+              "unitText": "per kg"
+            },
+            {
+              "@type": "Offer",
+              "name": "Dry Cleaning - Mens Wear",
+              "price": "100",
+              "priceCurrency": "INR",
+              "description": "Starting price for shirt/t-shirt"
+            }
+          ]
+        },
         "hoursOfOperation": {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": [
