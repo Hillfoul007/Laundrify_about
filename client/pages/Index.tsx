@@ -72,6 +72,14 @@ export default function Home() {
                 </a>
                 <Link
                   to="/services"
+                  onClick={() => {
+                    window.dataLayer = window.dataLayer || [];
+                    window.dataLayer.push({
+                      event: 'conversion',
+                      conversion_id: 1780734392,
+                      conversion_label: 'puzAGMltUocbEJNqhC'
+                    });
+                  }}
                   className="bg-gradient-to-r from-pink-400 to-red-400 text-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-2xl transition-all shadow-lg hover:-translate-y-1 flex items-center justify-center gap-2"
                 >
                   Browse Services
