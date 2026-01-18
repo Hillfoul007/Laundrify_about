@@ -67,7 +67,7 @@ export default function Home() {
                   href="https://www.laundrify.online"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white text-purple-700 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 text-center"
+                  className="bg-white text-purple-700 px-10 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all shadow-2xl hover:shadow-3xl transform hover:-translate-y-2 hover:scale-105 text-center"
                 >
                   Book Service
                 </a>
@@ -81,15 +81,15 @@ export default function Home() {
                       conversion_label: "puzAGMltUocbEJNqhC",
                     });
                   }}
-                  className="bg-gradient-to-r from-pink-400 to-red-400 text-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-2xl transition-all shadow-lg hover:-translate-y-1 flex items-center justify-center gap-2"
+                  className="bg-gradient-to-r from-pink-400 to-red-400 text-white px-10 py-4 rounded-xl font-bold text-lg hover:shadow-2xl transition-all shadow-lg hover:-translate-y-2 hover:scale-105 flex items-center justify-center gap-2"
                 >
                   Browse Services
                 </Link>
                 <a
                   href="tel:+919315989054"
-                  className="bg-gradient-to-r from-blue-400 to-purple-400 text-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-2xl transition-all shadow-lg hover:-translate-y-1 flex items-center justify-center gap-2"
+                  className="bg-gradient-to-r from-blue-400 to-purple-400 text-white px-10 py-4 rounded-xl font-bold text-lg hover:shadow-2xl transition-all shadow-lg hover:-translate-y-2 hover:scale-105 flex items-center justify-center gap-2"
                 >
-                  <Phone className="w-5 h-5" />
+                  <Phone className="w-6 h-6" />
                   Call Now
                 </a>
               </div>
