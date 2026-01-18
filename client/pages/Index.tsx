@@ -329,6 +329,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <Testimonials />
+
       {/* CTA Section */}
       <section className="relative bg-gradient-to-r from-indigo-900 via-purple-800 to-pink-700 text-white py-20 lg:py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
