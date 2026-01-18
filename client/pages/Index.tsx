@@ -246,50 +246,74 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-            <div className="group bg-white p-8 rounded-xl border border-slate-200 text-center hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">
-                👕
+            <div className="group bg-white rounded-xl border border-slate-200 overflow-hidden hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
+              <div className="relative h-40 overflow-hidden bg-slate-200">
+                <img
+                  src="https://images.pexels.com/photos/12104070/pexels-photo-12104070.jpeg"
+                  alt="Laundry service"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
               </div>
-              <h3 className="font-bold text-slate-900 mb-2 text-lg">Laundry</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">
-                Washing with fold or iron service included
-              </p>
+              <div className="p-6 text-center">
+                <h3 className="font-bold text-slate-900 mb-2 text-lg">Laundry</h3>
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  Washing with fold or iron service included
+                </p>
+              </div>
             </div>
 
-            <div className="group bg-white p-8 rounded-xl border border-slate-200 text-center hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">
-                👔
+            <div className="group bg-white rounded-xl border border-slate-200 overflow-hidden hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
+              <div className="relative h-40 overflow-hidden bg-slate-200">
+                <img
+                  src="https://images.pexels.com/photos/3613388/pexels-photo-3613388.jpeg"
+                  alt="Men's dry cleaning"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
               </div>
-              <h3 className="font-bold text-slate-900 mb-2 text-lg">
-                Men's Dry Clean
-              </h3>
-              <p className="text-sm text-slate-600 leading-relaxed">
-                Professional dry cleaning for men's wear
-              </p>
+              <div className="p-6 text-center">
+                <h3 className="font-bold text-slate-900 mb-2 text-lg">
+                  Men's Dry Clean
+                </h3>
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  Professional dry cleaning for men's wear
+                </p>
+              </div>
             </div>
 
-            <div className="group bg-white p-8 rounded-xl border border-slate-200 text-center hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">
-                👗
+            <div className="group bg-white rounded-xl border border-slate-200 overflow-hidden hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
+              <div className="relative h-40 overflow-hidden bg-slate-200">
+                <img
+                  src="https://images.pexels.com/photos/11527695/pexels-photo-11527695.jpeg"
+                  alt="Women's clothing care"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
               </div>
-              <h3 className="font-bold text-slate-900 mb-2 text-lg">
-                Women's Dry Clean
-              </h3>
-              <p className="text-sm text-slate-600 leading-relaxed">
-                Specialized care for women's garments
-              </p>
+              <div className="p-6 text-center">
+                <h3 className="font-bold text-slate-900 mb-2 text-lg">
+                  Women's Dry Clean
+                </h3>
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  Specialized care for women's garments
+                </p>
+              </div>
             </div>
 
-            <div className="group bg-white p-8 rounded-xl border border-slate-200 text-center hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">
-                🧥
+            <div className="group bg-white rounded-xl border border-slate-200 overflow-hidden hover:border-purple-300 transition-all hover:shadow-2xl hover:-translate-y-2">
+              <div className="relative h-40 overflow-hidden bg-slate-200">
+                <img
+                  src="https://images.pexels.com/photos/10335075/pexels-photo-10335075.jpeg"
+                  alt="Woolen care service"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
               </div>
-              <h3 className="font-bold text-slate-900 mb-2 text-lg">
-                Woolen Care
-              </h3>
-              <p className="text-sm text-slate-600 leading-relaxed">
-                Gentle cleaning for delicate woolens
-              </p>
+              <div className="p-6 text-center">
+                <h3 className="font-bold text-slate-900 mb-2 text-lg">
+                  Woolen Care
+                </h3>
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  Gentle cleaning for delicate woolens
+                </p>
+              </div>
             </div>
           </div>
 
