@@ -3,8 +3,8 @@ import { MessageCircle, Phone, Mail } from "lucide-react";
 export default function FloatingContact() {
   return (
     <>
-      {/* Floating Contact Icons - Left Side */}
-      <div className="fixed left-4 top-1/2 transform -translate-y-1/2 z-40 hidden sm:flex flex-col gap-4">
+      {/* Floating Contact Icons - Bottom Right */}
+      <div className="fixed right-6 bottom-8 z-40 flex flex-col gap-3 sm:gap-4">
         {/* WhatsApp */}
         <a
           href="https://wa.me/917011585587?text=Hi%20Laundrify%2C%20I%20need%20laundry%20service"
