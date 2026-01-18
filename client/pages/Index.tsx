@@ -256,7 +256,9 @@ export default function Home() {
                 />
               </div>
               <div className="p-6 text-center">
-                <h3 className="font-bold text-slate-900 mb-2 text-lg">Laundry</h3>
+                <h3 className="font-bold text-slate-900 mb-2 text-lg">
+                  Laundry
+                </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
                   Washing with fold or iron service included
                 </p>

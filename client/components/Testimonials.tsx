@@ -41,7 +41,8 @@ export default function Testimonials() {
             What Our Customers Say
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Join thousands of happy customers who trust Laundrify for their laundry needs
+            Join thousands of happy customers who trust Laundrify for their
+            laundry needs
           </p>
         </div>
 
@@ -74,7 +75,9 @@ export default function Testimonials() {
                   className="w-16 h-16 rounded-full object-cover"
                 />
                 <div>
-                  <h4 className="font-bold text-slate-900">{testimonial.name}</h4>
+                  <h4 className="font-bold text-slate-900">
+                    {testimonial.name}
+                  </h4>
                   <p className="text-sm text-slate-600">{testimonial.role}</p>
                 </div>
               </div>

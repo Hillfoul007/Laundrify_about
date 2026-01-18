@@ -28,7 +28,7 @@ export default function HeroCarousel() {
 
   const goToPrevious = () => {
     setCurrentIndex(
-      (prev) => (prev - 1 + CAROUSEL_IMAGES.length) % CAROUSEL_IMAGES.length
+      (prev) => (prev - 1 + CAROUSEL_IMAGES.length) % CAROUSEL_IMAGES.length,
     );
   };
 
