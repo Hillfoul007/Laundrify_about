@@ -348,14 +348,14 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+917011585587"
-              className="bg-white text-purple-700 px-10 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all flex items-center justify-center gap-2 shadow-2xl hover:shadow-3xl"
+              className="bg-white text-purple-700 px-12 py-5 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all flex items-center justify-center gap-2 shadow-2xl hover:shadow-3xl transform hover:scale-105 hover:-translate-y-1"
             >
-              <Phone className="w-5 h-5" />
+              <Phone className="w-6 h-6" />
               Call: +91 7011585587
             </a>
             <Link
               to="/contact"
-              className="bg-gradient-to-r from-pink-400 to-red-400 text-white px-10 py-4 rounded-lg font-bold text-lg hover:shadow-2xl transition-all shadow-lg"
+              className="bg-gradient-to-r from-pink-400 to-red-400 text-white px-12 py-5 rounded-xl font-bold text-lg hover:shadow-2xl transition-all shadow-lg transform hover:scale-105 hover:-translate-y-1"
             >
               Get in Touch
             </Link>
