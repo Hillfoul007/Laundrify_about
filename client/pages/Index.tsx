@@ -320,7 +320,7 @@ export default function Home() {
           <div className="text-center">
             <Link
               to="/services"
-              className="inline-block bg-gradient-to-r from-purple-600 to-pink-500 text-white px-10 py-4 rounded-lg font-bold text-lg hover:shadow-2xl transition-all hover:-translate-y-1"
+              className="inline-block bg-gradient-to-r from-purple-600 to-pink-500 text-white px-12 py-4 rounded-xl font-bold text-lg hover:shadow-2xl transition-all hover:-translate-y-2 transform hover:scale-105"
             >
               View All Services & Pricing
             </Link>
