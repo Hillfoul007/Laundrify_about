@@ -2,6 +2,7 @@ import { Layout } from "@/components/Layout";
 import { Link } from "react-router-dom";
 import { useMeta } from "@/hooks/use-meta";
 import HeroCarousel from "@/components/HeroCarousel";
+import Testimonials from "@/components/Testimonials";
 import {
   Sparkles,
   Zap,
