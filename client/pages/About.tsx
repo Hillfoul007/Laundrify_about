@@ -107,30 +107,26 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="p-8 bg-slate-50 rounded-lg border border-slate-200">
                 <h3 className="text-xl font-bold text-slate-900 mb-4">
-                  Quality
+                  Quality Laundry & Dry Cleaning
                 </h3>
                 <p className="text-slate-600">
-                  We maintain the highest standards in cleaning and care,
-                  ensuring every garment is treated with premium attention to
-                  detail.
+                  We maintain the highest standards in professional laundry and dry cleaning care, ensuring every garment is treated with premium attention to detail using modern equipment and premium detergents.
                 </p>
               </div>
               <div className="p-8 bg-slate-50 rounded-lg border border-slate-200">
                 <h3 className="text-xl font-bold text-slate-900 mb-4">
-                  Reliability
+                  Reliable Express Laundry Service
                 </h3>
                 <p className="text-slate-600">
-                  You can count on us for timely delivery, transparent pricing,
-                  and consistent service every single time.
+                  You can count on us for timely 45-minute express delivery, transparent pricing, and consistent professional laundry service every single time without fail.
                 </p>
               </div>
               <div className="p-8 bg-slate-50 rounded-lg border border-slate-200">
                 <h3 className="text-xl font-bold text-slate-900 mb-4">
-                  Customer Care
+                  24/7 Laundry Customer Care
                 </h3>
                 <p className="text-slate-600">
-                  Your satisfaction is our priority. We're available 24/7 to
-                  address any concerns and ensure you're always happy.
+                  Your satisfaction is our priority. We're available 24/7 for laundry and dry cleaning service inquiries to address any concerns and ensure you're always happy with our professional service.
                 </p>
               </div>
             </div>
