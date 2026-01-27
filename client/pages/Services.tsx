@@ -160,7 +160,7 @@ export default function Services() {
             <TabsContent value="womens">
               <Card className="p-8">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6">
-                  Dry Clean - Women's Wear
+                  Women's Dry Cleaning - Sarees, Dresses & Lehengas
                 </h3>
                 <div className="overflow-x-auto">
                   <table className="w-full">
@@ -209,12 +209,12 @@ export default function Services() {
             <TabsContent value="woolen">
               <Card className="p-8">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6">
-                  Dry Clean - Woolen & Other Household Items
+                  Woolen Care & Household Items Cleaning Service
                 </h3>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                   <div>
                     <h4 className="font-bold text-purple-600 mb-4">
-                      Woolen Items
+                      Woolen Care Services
                     </h4>
                     <div className="overflow-x-auto">
                       <table className="w-full">
@@ -243,7 +243,7 @@ export default function Services() {
                   </div>
                   <div>
                     <h4 className="font-bold text-purple-600 mb-4">
-                      Household Items
+                      Household Items Cleaning
                     </h4>
                     <div className="overflow-x-auto">
                       <table className="w-full">
