@@ -327,6 +327,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <FAQ />
+
       {/* Testimonials Section */}
       <Testimonials />
 
