@@ -277,7 +277,7 @@ export default function Services() {
             <TabsContent value="shoe">
               <Card className="p-8">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6">
-                  Shoe Care (Dry Cleaning)
+                  Professional Shoe Care & Cleaning Service
                 </h3>
                 <div className="overflow-x-auto">
                   <table className="w-full">
@@ -318,7 +318,7 @@ export default function Services() {
           {/* Special Offers */}
           <div className="mt-16 p-8 bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg border-2 border-purple-200">
             <h3 className="text-2xl font-bold text-slate-900 mb-4">
-              Special Offers & Benefits
+              Special Laundry Service Offers & Benefits
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="flex gap-4">
