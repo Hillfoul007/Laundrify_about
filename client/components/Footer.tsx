@@ -41,7 +41,7 @@ export function Footer() {
                   to="/about"
                   className="hover:text-pink-400 transition-colors"
                 >
-                  About Us
+                  About Laundrify
                 </Link>
               </li>
               <li>
@@ -49,7 +49,7 @@ export function Footer() {
                   to="/services"
                   className="hover:text-pink-400 transition-colors"
                 >
-                  Services
+                  Laundry Services & Pricing
                 </Link>
               </li>
               <li>
@@ -57,7 +57,7 @@ export function Footer() {
                   to="/contact"
                   className="hover:text-pink-400 transition-colors"
                 >
-                  Contact
+                  Contact Laundrify
                 </Link>
               </li>
               <li>
