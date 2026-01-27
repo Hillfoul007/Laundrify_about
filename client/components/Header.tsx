@@ -9,9 +9,9 @@ export function Header() {
 
   const navItems = [
     { label: "Home", href: "/" },
-    { label: "About", href: "/about" },
-    { label: "Services", href: "/services" },
-    { label: "Contact", href: "/contact" },
+    { label: "About Laundrify", href: "/about" },
+    { label: "Laundry Services & Pricing", href: "/services" },
+    { label: "Contact Us", href: "/contact" },
   ];
 
   return (
