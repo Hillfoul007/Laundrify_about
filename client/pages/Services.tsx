@@ -324,9 +324,9 @@ export default function Services() {
               <div className="flex gap-4">
                 <div className="text-3xl">🎁</div>
                 <div>
-                  <p className="font-bold text-slate-900">Up to 20% Discount</p>
+                  <p className="font-bold text-slate-900">Up to 20% Laundry Discount</p>
                   <p className="text-slate-600">
-                    On express services completed in less than 24 hours
+                    On express laundry and dry cleaning services completed in less than 24 hours
                   </p>
                 </div>
               </div>
@@ -334,28 +334,28 @@ export default function Services() {
                 <div className="text-3xl">🚚</div>
                 <div>
                   <p className="font-bold text-slate-900">
-                    Free Pickup & Delivery
+                    Free Pickup & Delivery Laundry Service
                   </p>
                   <p className="text-slate-600">
-                    Complimentary service across both branches
+                    Complimentary door-to-door laundry service across Sector 43 & 69 branches in Gurgaon
                   </p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="text-3xl">⚡</div>
                 <div>
-                  <p className="font-bold text-slate-900">Express Service</p>
+                  <p className="font-bold text-slate-900">Express Laundry Service</p>
                   <p className="text-slate-600">
-                    Get your clothes ready in just 45 minutes
+                    Get your clothes professionally cleaned and ready in just 45 minutes
                   </p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="text-3xl">24/7</div>
                 <div>
-                  <p className="font-bold text-slate-900">Always Available</p>
+                  <p className="font-bold text-slate-900">24/7 Laundry Available</p>
                   <p className="text-slate-600">
-                    Round-the-clock service for your convenience
+                    Round-the-clock laundry and dry cleaning service for your convenience
                   </p>
                 </div>
               </div>
