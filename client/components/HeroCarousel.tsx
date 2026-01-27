@@ -4,15 +4,15 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const CAROUSEL_IMAGES = [
   {
     url: "https://images.pexels.com/photos/4959878/pexels-photo-4959878.jpeg",
-    alt: "Fresh clean laundry in basket",
+    alt: "Fresh clean laundry service in basket - professional dry cleaning and washing",
   },
   {
     url: "https://images.pexels.com/photos/28576623/pexels-photo-28576623.jpeg",
-    alt: "Folded white shirts with iron",
+    alt: "Folded white shirts with iron - express laundry service ready for delivery",
   },
   {
     url: "https://images.pexels.com/photos/6721897/pexels-photo-6721897.jpeg",
-    alt: "Happy customer receiving laundry delivery",
+    alt: "Happy customer receiving laundry delivery service - free pickup and delivery",
   },
 ];
 
