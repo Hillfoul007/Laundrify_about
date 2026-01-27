@@ -4,7 +4,8 @@ import { CheckCircle } from "lucide-react";
 
 export default function About() {
   useMeta({
-    title: "About Laundrify - Professional Laundry & Dry Cleaning Service in Gurgaon | 10+ Years Experience",
+    title:
+      "About Laundrify - Professional Laundry & Dry Cleaning Service in Gurgaon | 10+ Years Experience",
     description:
       "About Laundrify - Professional laundry & dry cleaning service provider in Gurgaon with 10+ years experience. We serve 5000+ happy customers across Sector 43 & 69 with express 45-minute delivery. Premium care with state-of-the-art equipment and experienced professionals. Trusted for quality, reliability, and customer satisfaction.",
     keywords:
@@ -17,10 +18,12 @@ export default function About() {
       <section className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            About Laundrify - Professional Laundry & Dry Cleaning Service Provider
+            About Laundrify - Professional Laundry & Dry Cleaning Service
+            Provider
           </h1>
           <p className="text-lg text-white opacity-95">
-            Your trusted partner for premium laundry and dry cleaning services in Gurgaon with 10+ years of experience
+            Your trusted partner for premium laundry and dry cleaning services
+            in Gurgaon with 10+ years of experience
           </p>
         </div>
       </section>
@@ -110,7 +113,10 @@ export default function About() {
                   Quality Laundry & Dry Cleaning
                 </h3>
                 <p className="text-slate-600">
-                  We maintain the highest standards in professional laundry and dry cleaning care, ensuring every garment is treated with premium attention to detail using modern equipment and premium detergents.
+                  We maintain the highest standards in professional laundry and
+                  dry cleaning care, ensuring every garment is treated with
+                  premium attention to detail using modern equipment and premium
+                  detergents.
                 </p>
               </div>
               <div className="p-8 bg-slate-50 rounded-lg border border-slate-200">
@@ -118,7 +124,9 @@ export default function About() {
                   Reliable Express Laundry Service
                 </h3>
                 <p className="text-slate-600">
-                  You can count on us for timely 45-minute express delivery, transparent pricing, and consistent professional laundry service every single time without fail.
+                  You can count on us for timely 45-minute express delivery,
+                  transparent pricing, and consistent professional laundry
+                  service every single time without fail.
                 </p>
               </div>
               <div className="p-8 bg-slate-50 rounded-lg border border-slate-200">
@@ -126,7 +134,10 @@ export default function About() {
                   24/7 Laundry Customer Care
                 </h3>
                 <p className="text-slate-600">
-                  Your satisfaction is our priority. We're available 24/7 for laundry and dry cleaning service inquiries to address any concerns and ensure you're always happy with our professional service.
+                  Your satisfaction is our priority. We're available 24/7 for
+                  laundry and dry cleaning service inquiries to address any
+                  concerns and ensure you're always happy with our professional
+                  service.
                 </p>
               </div>
             </div>

@@ -5,7 +5,8 @@ import { Card } from "@/components/ui/card";
 
 export default function Services() {
   useMeta({
-    title: "Laundry & Dry Cleaning Services with Best Prices | Laundrify Gurgaon | ₹59/kg Laundry, ₹100 Dry Cleaning",
+    title:
+      "Laundry & Dry Cleaning Services with Best Prices | Laundrify Gurgaon | ₹59/kg Laundry, ₹100 Dry Cleaning",
     description:
       "Laundrify laundry & dry cleaning services with transparent pricing. Laundry from ₹59/kg with fold, ₹89/kg with iron. Men's dry cleaning from ₹100, women's wear from ₹120, woolen care from ₹220. Premium shoe care and specialized garment cleaning. Free pickup & delivery available. Up to 20% OFF on express services. Book now!",
     keywords:
@@ -17,9 +18,13 @@ export default function Services() {
       {/* Header */}
       <section className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Laundry & Dry Cleaning Services with Prices</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            Laundry & Dry Cleaning Services with Prices
+          </h1>
           <p className="text-lg text-white opacity-95">
-            Professional laundry and dry cleaning services with transparent pricing. Affordable rates for all garment types with free pickup and delivery
+            Professional laundry and dry cleaning services with transparent
+            pricing. Affordable rates for all garment types with free pickup and
+            delivery
           </p>
         </div>
       </section>
@@ -324,9 +329,12 @@ export default function Services() {
               <div className="flex gap-4">
                 <div className="text-3xl">🎁</div>
                 <div>
-                  <p className="font-bold text-slate-900">Up to 20% Laundry Discount</p>
+                  <p className="font-bold text-slate-900">
+                    Up to 20% Laundry Discount
+                  </p>
                   <p className="text-slate-600">
-                    On express laundry and dry cleaning services completed in less than 24 hours
+                    On express laundry and dry cleaning services completed in
+                    less than 24 hours
                   </p>
                 </div>
               </div>
@@ -337,25 +345,32 @@ export default function Services() {
                     Free Pickup & Delivery Laundry Service
                   </p>
                   <p className="text-slate-600">
-                    Complimentary door-to-door laundry service across Sector 43 & 69 branches in Gurgaon
+                    Complimentary door-to-door laundry service across Sector 43
+                    & 69 branches in Gurgaon
                   </p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="text-3xl">⚡</div>
                 <div>
-                  <p className="font-bold text-slate-900">Express Laundry Service</p>
+                  <p className="font-bold text-slate-900">
+                    Express Laundry Service
+                  </p>
                   <p className="text-slate-600">
-                    Get your clothes professionally cleaned and ready in just 45 minutes
+                    Get your clothes professionally cleaned and ready in just 45
+                    minutes
                   </p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="text-3xl">24/7</div>
                 <div>
-                  <p className="font-bold text-slate-900">24/7 Laundry Available</p>
+                  <p className="font-bold text-slate-900">
+                    24/7 Laundry Available
+                  </p>
                   <p className="text-slate-600">
-                    Round-the-clock laundry and dry cleaning service for your convenience
+                    Round-the-clock laundry and dry cleaning service for your
+                    convenience
                   </p>
                 </div>
               </div>

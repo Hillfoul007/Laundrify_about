@@ -17,9 +17,12 @@ export default function Contact() {
       {/* Header */}
       <section className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Laundrify - 24/7 Laundry & Dry Cleaning Service</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            Contact Laundrify - 24/7 Laundry & Dry Cleaning Service
+          </h1>
           <p className="text-lg text-white opacity-95">
-            Get in touch with us anytime for laundry and dry cleaning services. We're here to help with fast response and free pickup & delivery!
+            Get in touch with us anytime for laundry and dry cleaning services.
+            We're here to help with fast response and free pickup & delivery!
           </p>
         </div>
       </section>
@@ -32,8 +35,12 @@ export default function Contact() {
               <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-500 rounded-lg flex items-center justify-center mb-4">
                 <Phone className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-2">Call Us for Laundry Service</h3>
-              <p className="text-slate-600 mb-2">Available 24/7 for laundry pickup and delivery</p>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">
+                Call Us for Laundry Service
+              </h3>
+              <p className="text-slate-600 mb-2">
+                Available 24/7 for laundry pickup and delivery
+              </p>
               <a
                 href="tel:+917011585587"
                 className="text-purple-600 font-bold hover:text-pink-600 text-lg"

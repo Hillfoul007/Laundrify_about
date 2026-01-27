@@ -41,7 +41,9 @@ export default function Testimonials() {
             What Our Customers Say About Laundrify - Best Laundry Service
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Join thousands of happy customers who trust Laundrify for their professional laundry and dry cleaning service needs with express delivery
+            Join thousands of happy customers who trust Laundrify for their
+            professional laundry and dry cleaning service needs with express
+            delivery
           </p>
         </div>
 

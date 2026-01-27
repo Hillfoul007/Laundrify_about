@@ -127,7 +127,9 @@ export default function Home() {
               Why Choose Laundrify - Best Laundry & Dry Cleaning Service
             </h2>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-              Experience the difference with our professional laundry and dry cleaning services designed for busy professionals who demand quality, speed, and affordability
+              Experience the difference with our professional laundry and dry
+              cleaning services designed for busy professionals who demand
+              quality, speed, and affordability
             </p>
           </div>
 
@@ -140,7 +142,9 @@ export default function Home() {
                 45-Minute Express Laundry Delivery
               </h3>
               <p className="text-slate-600 leading-relaxed">
-                Get your clothes professionally cleaned and delivered in just 45 minutes with our lightning-fast express laundry service in Gurgaon.
+                Get your clothes professionally cleaned and delivered in just 45
+                minutes with our lightning-fast express laundry service in
+                Gurgaon.
               </p>
             </div>
 
@@ -152,7 +156,9 @@ export default function Home() {
                 Free Pickup & Delivery Service
               </h3>
               <p className="text-slate-600 leading-relaxed">
-                Complimentary laundry pickup and delivery service across Gurgaon. Our door-to-door service means no trips to the laundromat. No hidden charges, no surprises.
+                Complimentary laundry pickup and delivery service across
+                Gurgaon. Our door-to-door service means no trips to the
+                laundromat. No hidden charges, no surprises.
               </p>
             </div>
 
@@ -164,7 +170,10 @@ export default function Home() {
                 Premium Quality Dry Cleaning & Laundry Care
               </h3>
               <p className="text-slate-600 leading-relaxed">
-                Professional care using premium detergents and eco-friendly equipment. Our expert laundry specialists ensure your clothes receive the best treatment with modern equipment and quality service standards.
+                Professional care using premium detergents and eco-friendly
+                equipment. Our expert laundry specialists ensure your clothes
+                receive the best treatment with modern equipment and quality
+                service standards.
               </p>
             </div>
           </div>
@@ -179,7 +188,8 @@ export default function Home() {
               Affordable Laundry & Dry Cleaning Pricing
             </h2>
             <p className="text-lg text-slate-600">
-              Transparent pricing with no hidden charges. Starting from ₹59/kg for laundry and ₹100 for dry cleaning
+              Transparent pricing with no hidden charges. Starting from ₹59/kg
+              for laundry and ₹100 for dry cleaning
             </p>
           </div>
 
@@ -238,7 +248,9 @@ export default function Home() {
               Professional Laundry & Dry Cleaning Services
             </h2>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-              Comprehensive laundry and dry cleaning solutions tailored to your needs including express service, woolen care, shoe cleaning, and specialized garment care
+              Comprehensive laundry and dry cleaning solutions tailored to your
+              needs including express service, woolen care, shoe cleaning, and
+              specialized garment care
             </p>
           </div>
 
@@ -256,7 +268,8 @@ export default function Home() {
                   Express Laundry Service
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Professional laundry with fold or iron service from ₹59/kg. Express delivery in 45 minutes
+                  Professional laundry with fold or iron service from ₹59/kg.
+                  Express delivery in 45 minutes
                 </p>
               </div>
             </div>
@@ -274,7 +287,8 @@ export default function Home() {
                   Men's Dry Cleaning from ₹100
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Professional dry cleaning for men's shirts, trousers, suits and formal wear. Starting from ₹100
+                  Professional dry cleaning for men's shirts, trousers, suits
+                  and formal wear. Starting from ₹100
                 </p>
               </div>
             </div>
@@ -292,7 +306,8 @@ export default function Home() {
                   Women's Dry Cleaning from ₹120
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Specialized care for women's sarees, dresses, lehengas and delicate garments. Starting from ₹120
+                  Specialized care for women's sarees, dresses, lehengas and
+                  delicate garments. Starting from ₹120
                 </p>
               </div>
             </div>
@@ -310,7 +325,8 @@ export default function Home() {
                   Woolen Care Service
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Gentle cleaning for delicate woolens and winter wear. Expert care for cashmere, wool, and knitted garments
+                  Gentle cleaning for delicate woolens and winter wear. Expert
+                  care for cashmere, wool, and knitted garments
                 </p>
               </div>
             </div>
@@ -345,7 +361,9 @@ export default function Home() {
             Ready to Experience Premium Laundry & Dry Cleaning Service?
           </h2>
           <p className="text-lg text-gray-200 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Get up to <span className="text-pink-300 font-bold">20% OFF</span> on your first express laundry service order. Free pickup and delivery available across Gurgaon (Sector 43 & 69).
+            Get up to <span className="text-pink-300 font-bold">20% OFF</span>{" "}
+            on your first express laundry service order. Free pickup and
+            delivery available across Gurgaon (Sector 43 & 69).
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

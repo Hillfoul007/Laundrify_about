@@ -74,7 +74,8 @@ export default function FAQ() {
             Frequently Asked Questions About Our Laundry Service
           </h2>
           <p className="text-xl text-slate-600">
-            Find answers to common questions about Laundrify laundry and dry cleaning services
+            Find answers to common questions about Laundrify laundry and dry
+            cleaning services
           </p>
         </div>
 
@@ -119,7 +120,8 @@ export default function FAQ() {
             >
               +91 7011585587
             </a>{" "}
-            for immediate assistance with any laundry or dry cleaning service inquiries.
+            for immediate assistance with any laundry or dry cleaning service
+            inquiries.
           </p>
           <p className="text-slate-600">We're available 24/7 to help!</p>
         </div>
