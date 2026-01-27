@@ -5,11 +5,11 @@ import { Card } from "@/components/ui/card";
 
 export default function Services() {
   useMeta({
-    title: "Laundry & Dry Cleaning Services with Prices | Laundrify Gurgaon",
+    title: "Laundry & Dry Cleaning Services with Best Prices | Laundrify Gurgaon | ₹59/kg Laundry, ₹100 Dry Cleaning",
     description:
-      "Laundrify offers affordable laundry & dry cleaning services. Laundry from ₹59/kg with fold, ₹89/kg with iron. Men's dry cleaning from ₹100, women's wear from ₹120, woolen care from ₹220. Free pickup & delivery. Up to 20% OFF on express services.",
+      "Laundrify laundry & dry cleaning services with transparent pricing. Laundry from ₹59/kg with fold, ₹89/kg with iron. Men's dry cleaning from ₹100, women's wear from ₹120, woolen care from ₹220. Premium shoe care and specialized garment cleaning. Free pickup & delivery available. Up to 20% OFF on express services. Book now!",
     keywords:
-      "laundry services prices, dry cleaning rates, laundry cost ₹59, mens dry cleaning ₹100, womens dry cleaning, woolen care prices, express laundry service, shirt dry cleaning, trouser dry cleaning, saree cleaning price, lehenga cleaning, bedsheet laundry, professional laundry Gurgaon, affordable dry cleaning",
+      "laundry service prices, dry cleaning rates, laundry cost, mens dry cleaning, womens dry cleaning, trouser dry cleaning, shirt dry cleaning, woolen care, saree cleaning, lehenga cleaning service, bedsheet laundry, professional laundry Gurgaon, affordable dry cleaning, best dry cleaning service, express laundry service, same day laundry, premium dry cleaning",
   });
 
   return (
