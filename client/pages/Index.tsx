@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useMeta } from "@/hooks/use-meta";
 import HeroCarousel from "@/components/HeroCarousel";
 import Testimonials from "@/components/Testimonials";
+import FAQ from "@/components/FAQ";
 import {
   Sparkles,
   Zap,
