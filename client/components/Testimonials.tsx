@@ -38,11 +38,10 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-            What Our Customers Say
+            What Our Customers Say About Laundrify - Best Laundry Service
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Join thousands of happy customers who trust Laundrify for their
-            laundry needs
+            Join thousands of happy customers who trust Laundrify for their professional laundry and dry cleaning service needs with express delivery
           </p>
         </div>
 
