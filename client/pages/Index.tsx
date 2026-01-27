@@ -224,7 +224,7 @@ export default function Home() {
               to="/services"
               className="inline-block text-purple-600 font-semibold hover:text-pink-600 transition-colors"
             >
-              View complete pricing details →
+              View complete laundry and dry cleaning service pricing →
             </Link>
           </div>
         </div>
@@ -321,7 +321,7 @@ export default function Home() {
               to="/services"
               className="inline-block bg-gradient-to-r from-purple-600 to-pink-500 text-white px-12 py-4 rounded-xl font-bold text-lg hover:shadow-2xl transition-all hover:-translate-y-2 transform hover:scale-105"
             >
-              View All Services & Pricing
+              View All Laundry & Dry Cleaning Services & Pricing
             </Link>
           </div>
         </div>
