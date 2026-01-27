@@ -16,11 +16,11 @@ import {
 export default function Home() {
   useMeta({
     title:
-      "Laundrify - Express Laundry & Dry Cleaning Service in Gurgaon | Best Prices ₹59",
+      "Laundrify - Express Laundry & Dry Cleaning Service in Gurgaon | ₹59/kg Laundry, ₹100 Dry Cleaning | 45 Min Delivery",
     description:
-      "Professional laundry & dry cleaning delivered in 45 minutes. Laundry from ₹59/kg, dry cleaning from ₹100. Free pickup & delivery, 24/7 service in Sector 43 & 69, Gurgaon. Call +91 7011585587.",
+      "Laundrify - Best laundry & dry cleaning service in Gurgaon. Express 45-minute delivery with free pickup & delivery. Laundry from ₹59/kg with fold, ₹89/kg with iron. Dry cleaning from ₹100. 100% customer satisfaction, 5000+ happy customers. Available 24/7 in Sector 43 & 69. Call +91 7011585587.",
     keywords:
-      "laundry service Gurgaon, dry cleaning Gurgaon, express laundry, pickup delivery, laundry pricing ₹59, dry cleaning prices, professional laundry Sector 43, Sector 69, affordable laundry service, same day laundry, 24/7 laundry",
+      "laundry service Gurgaon, best laundry service near me, dry cleaning Gurgaon, express laundry delivery, affordable laundry service, pickup and delivery laundry, professional dry cleaning, same day laundry, 24/7 laundry service, laundry prices, dry cleaning prices, Sector 43 laundry, Sector 69 laundry, cheapest laundry service, trusted laundry",
   });
 
   return (
