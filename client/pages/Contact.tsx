@@ -5,11 +5,11 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 export default function Contact() {
   useMeta({
     title:
-      "Contact Laundrify - 24/7 Laundry Service in Gurgaon | +91 7011585587",
+      "Contact Laundrify - 24/7 Laundry & Dry Cleaning Service in Gurgaon | +91 7011585587",
     description:
-      "Contact Laundrify for laundry & dry cleaning services. Sector 43 & Sector 69, Gurgaon. Call +91 7011585587 for free pickup & delivery. 24/7 customer support. Book now for ₹59/kg laundry, ₹100 dry cleaning.",
+      "Contact Laundrify for professional laundry & dry cleaning services in Gurgaon. Sector 43 & Sector 69 branches. Call +91 7011585587 anytime for free pickup & delivery. 24/7 customer support available. Book online now for express laundry and dry cleaning at affordable prices.",
     keywords:
-      "contact laundrify, laundry service contact, Gurgaon dry cleaning contact, customer service, Sector 43 laundry, Sector 69 laundry, free pickup delivery contact, 24/7 laundry customer care",
+      "contact laundrify, laundrify phone number, laundry service contact number, Gurgaon dry cleaning contact, customer care laundry, Sector 43 laundry address, Sector 69 laundry contact, free pickup delivery inquiry, 24/7 laundry customer support, book laundry online",
   });
 
   return (
