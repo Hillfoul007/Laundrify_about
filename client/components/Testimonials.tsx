@@ -70,7 +70,7 @@ export default function Testimonials() {
               <div className="flex items-center gap-4 pt-6 border-t border-slate-200">
                 <img
                   src={testimonial.image}
-                  alt={testimonial.name}
+                  alt={`${testimonial.name} - Laundrify laundry service customer review`}
                   className="w-16 h-16 rounded-full object-cover"
                 />
                 <div>
