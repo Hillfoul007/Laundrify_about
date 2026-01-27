@@ -99,15 +99,37 @@ export function Footer() {
           <div>
             <h3 className="font-bold text-white mb-4">Services</h3>
             <ul className="space-y-2 text-sm">
-              <li className="hover:text-pink-400 transition-colors">Laundry</li>
-              <li className="hover:text-pink-400 transition-colors">
-                Dry Clean
+              <li>
+                <Link
+                  to="/services"
+                  className="hover:text-pink-400 transition-colors"
+                >
+                  Professional Laundry Service
+                </Link>
               </li>
-              <li className="hover:text-pink-400 transition-colors">
-                Express Service
+              <li>
+                <Link
+                  to="/services"
+                  className="hover:text-pink-400 transition-colors"
+                >
+                  Dry Cleaning Service
+                </Link>
               </li>
-              <li className="hover:text-pink-400 transition-colors">
-                Free Pickup & Delivery
+              <li>
+                <Link
+                  to="/services"
+                  className="hover:text-pink-400 transition-colors"
+                >
+                  45 Min Express Service
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  className="hover:text-pink-400 transition-colors"
+                >
+                  Free Pickup & Delivery
+                </Link>
               </li>
             </ul>
           </div>
