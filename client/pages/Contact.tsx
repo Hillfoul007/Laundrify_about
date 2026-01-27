@@ -17,9 +17,9 @@ export default function Contact() {
       {/* Header */}
       <section className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Laundrify - 24/7 Laundry & Dry Cleaning Service</h1>
           <p className="text-lg text-white opacity-95">
-            Get in touch with us anytime. We're here to help!
+            Get in touch with us anytime for laundry and dry cleaning services. We're here to help with fast response and free pickup & delivery!
           </p>
         </div>
       </section>
@@ -32,8 +32,8 @@ export default function Contact() {
               <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-500 rounded-lg flex items-center justify-center mb-4">
                 <Phone className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-2">Call Us</h3>
-              <p className="text-slate-600 mb-2">Available 24/7</p>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">Call Us for Laundry Service</h3>
+              <p className="text-slate-600 mb-2">Available 24/7 for laundry pickup and delivery</p>
               <a
                 href="tel:+917011585587"
                 className="text-purple-600 font-bold hover:text-pink-600 text-lg"
@@ -47,7 +47,7 @@ export default function Contact() {
                 <MapPin className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">
-                Visit Us
+                Visit Our Branches
               </h3>
               <p className="text-slate-600">
                 Laundrify Sector 43 & Sector 69, Gurgaon
@@ -69,7 +69,7 @@ export default function Contact() {
           {/* Branches Section */}
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
-              Our Branches
+              Laundrify Branches in Gurgaon - Sector 43 & 69
             </h2>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
