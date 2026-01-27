@@ -102,7 +102,7 @@ export default function About() {
           {/* Values */}
           <div className="mt-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
-              Our Values
+              Our Values - Why We're the Best Professional Laundry Service
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="p-8 bg-slate-50 rounded-lg border border-slate-200">
