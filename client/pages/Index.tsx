@@ -246,7 +246,7 @@ export default function Home() {
               <div className="relative h-40 overflow-hidden bg-slate-200">
                 <img
                   src="https://images.pexels.com/photos/12104070/pexels-photo-12104070.jpeg"
-                  alt="Laundry service"
+                  alt="Professional laundry service with washing, drying and ironing"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
               </div>
@@ -264,7 +264,7 @@ export default function Home() {
               <div className="relative h-40 overflow-hidden bg-slate-200">
                 <img
                   src="https://images.pexels.com/photos/3613388/pexels-photo-3613388.jpeg"
-                  alt="Men's dry cleaning"
+                  alt="Men's dry cleaning service for shirts, trousers and formal wear"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
               </div>
@@ -282,7 +282,7 @@ export default function Home() {
               <div className="relative h-40 overflow-hidden bg-slate-200">
                 <img
                   src="https://images.pexels.com/photos/11527695/pexels-photo-11527695.jpeg"
-                  alt="Women's clothing care"
+                  alt="Women's dry cleaning service for sarees, dresses and delicate garments"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
               </div>
@@ -300,7 +300,7 @@ export default function Home() {
               <div className="relative h-40 overflow-hidden bg-slate-200">
                 <img
                   src="https://images.pexels.com/photos/10335075/pexels-photo-10335075.jpeg"
-                  alt="Woolen care service"
+                  alt="Woolen care service for cashmere, wool and delicate winter clothing"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
               </div>
