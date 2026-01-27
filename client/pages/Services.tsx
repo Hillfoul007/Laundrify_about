@@ -17,9 +17,9 @@ export default function Services() {
       {/* Header */}
       <section className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Laundry & Dry Cleaning Services with Prices</h1>
           <p className="text-lg text-white opacity-95">
-            Professional laundry and dry cleaning with transparent pricing
+            Professional laundry and dry cleaning services with transparent pricing. Affordable rates for all garment types with free pickup and delivery
           </p>
         </div>
       </section>
@@ -74,7 +74,7 @@ export default function Services() {
             <TabsContent value="laundry">
               <Card className="p-8">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6">
-                  Laundry Services
+                  Express Laundry Services - Affordable Pricing
                 </h3>
                 <div className="overflow-x-auto">
                   <table className="w-full">
@@ -115,7 +115,7 @@ export default function Services() {
             <TabsContent value="mens">
               <Card className="p-8">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6">
-                  Dry Clean - Men's Wear
+                  Men's Dry Cleaning Services - Best Prices
                 </h3>
                 <div className="overflow-x-auto">
                   <table className="w-full">
