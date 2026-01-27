@@ -252,10 +252,10 @@ export default function Home() {
               </div>
               <div className="p-6 text-center">
                 <h3 className="font-bold text-slate-900 mb-2 text-lg">
-                  Laundry
+                  Express Laundry Service
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Washing with fold or iron service included
+                  Professional laundry with fold or iron service from ₹59/kg. Express delivery in 45 minutes
                 </p>
               </div>
             </div>
@@ -270,10 +270,10 @@ export default function Home() {
               </div>
               <div className="p-6 text-center">
                 <h3 className="font-bold text-slate-900 mb-2 text-lg">
-                  Men's Dry Clean
+                  Men's Dry Cleaning from ₹100
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Professional dry cleaning for men's wear
+                  Professional dry cleaning for men's shirts, trousers, suits and formal wear. Starting from ₹100
                 </p>
               </div>
             </div>
@@ -288,10 +288,10 @@ export default function Home() {
               </div>
               <div className="p-6 text-center">
                 <h3 className="font-bold text-slate-900 mb-2 text-lg">
-                  Women's Dry Clean
+                  Women's Dry Cleaning from ₹120
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Specialized care for women's garments
+                  Specialized care for women's sarees, dresses, lehengas and delicate garments. Starting from ₹120
                 </p>
               </div>
             </div>
@@ -306,10 +306,10 @@ export default function Home() {
               </div>
               <div className="p-6 text-center">
                 <h3 className="font-bold text-slate-900 mb-2 text-lg">
-                  Woolen Care
+                  Woolen Care Service
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Gentle cleaning for delicate woolens
+                  Gentle cleaning for delicate woolens and winter wear. Expert care for cashmere, wool, and knitted garments
                 </p>
               </div>
             </div>
